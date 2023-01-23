@@ -4,23 +4,27 @@ import {ServerApiVersion} from 'mongodb'
 import 'dotenv/config'
 import logger from 'morgan'
 import mongoose from 'mongoose'
-//import fileUpload from 'express-fileupload'
+
 import path from "path";
-import  errorHandler from './common-middleware/error'
+import errorHandler from './common-middleware/error'
 
 import userRoutes from './routes/users'
+import adminRoutes from './routes/admin/adminAuth'
 const app = express()
 const port = process.env.PORT || 5000
 const api = process.env.API_URL || ''
 //handle cors policy
-app.use(cors())
+app.use(cors({
+        method: "GET,POST,PUT,PATCH,DELETE",
+        credentials: true,
+    }
+))
 app.options('*', cors())
 
 // work done as middle ware body parser
 app.use(express.json())
 // for request activity
 app.use(logger('dev'))
-
 
 
 app.use(express.urlencoded({extended: true}));
@@ -45,7 +49,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // call routes
 
 app.use('/api', userRoutes)
-
+app.use('/api', adminRoutes)
 // handle error
 app.use(errorHandler)
 //run the server
