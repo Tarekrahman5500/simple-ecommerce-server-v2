@@ -10,6 +10,8 @@ import errorHandler from './common-middleware/error'
 
 import userRoutes from './routes/users'
 import adminRoutes from './routes/admin/adminAuth'
+import categoryRoutes from './routes/category'
+import productRoutes from './routes/products'
 const app = express()
 const port = process.env.PORT || 5000
 const api = process.env.API_URL || ''
@@ -50,6 +52,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api', userRoutes)
 app.use('/api', adminRoutes)
+app.use('/api', categoryRoutes)
+app.use('/api', productRoutes)
 // handle error
 app.use(errorHandler)
 //run the server
