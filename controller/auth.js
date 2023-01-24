@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import shortid from 'shortid'
 
 import ErrorResponse from "../utils/errorResponse";
-import {checkEmail, generateJwtToken} from "../common-middleware/commonFunctions";
+import {checkEmail, generateJwtToken, removeImage} from "../common-middleware/commonFunctions";
 
 // function for signup
 exports.signup = async (req, res, next) => {
@@ -29,6 +29,8 @@ exports.signup = async (req, res, next) => {
         return res.status(200).json(newUser)
 
     } catch (err) {
+        req.removeImage = req.file.filename
+        await removeImage(req, res, next)
         next(err)
     }
 

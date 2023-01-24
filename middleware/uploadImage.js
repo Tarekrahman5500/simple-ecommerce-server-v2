@@ -1,4 +1,4 @@
-import fs from 'fs';
+
 import {CloudinaryStorage} from "multer-storage-cloudinary";
 import multer from "multer";
 import cloudinary from '../utils/cloud'
