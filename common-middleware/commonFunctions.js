@@ -11,8 +11,7 @@ exports.generateJwtToken = (_id, role) => {
 };
 // check user is in db
 exports.checkEmail = async (email) => {
-    const user = await User.findOne({email})
-    return user;
+    return User.findOne({email});
 }
 
 exports.removeImage = async (req, res, next) => {
@@ -27,8 +26,6 @@ exports.removeImage = async (req, res, next) => {
             if (error) next(new ErrorResponse('Failed to remove image', 401))
             next()
         })
-
-
     } catch (err) {
         next(err)
     }

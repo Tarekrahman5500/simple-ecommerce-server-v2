@@ -12,6 +12,7 @@ import userRoutes from './routes/users'
 import adminRoutes from './routes/admin/adminAuth'
 import categoryRoutes from './routes/category'
 import productRoutes from './routes/products'
+import cartRoutes from './routes/cart'
 const app = express()
 const port = process.env.PORT || 5000
 const api = process.env.API_URL || ''
@@ -54,6 +55,7 @@ app.use('/api', userRoutes)
 app.use('/api', adminRoutes)
 app.use('/api', categoryRoutes)
 app.use('/api', productRoutes)
+app.use('/api', cartRoutes)
 // handle error
 app.use(errorHandler)
 //run the server
