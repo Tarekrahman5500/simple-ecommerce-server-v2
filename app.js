@@ -13,15 +13,19 @@ import adminRoutes from './routes/admin/adminAuth'
 import categoryRoutes from './routes/category'
 import productRoutes from './routes/products'
 import cartRoutes from './routes/cart'
+
 const app = express()
 const port = process.env.PORT || 5000
-const api = process.env.API_URL || ''
+const api = process.env.API_URL || 'http://127.0.0.1:5173'
 //handle cors policy
 app.use(cors({
+        origin: api,
         method: "GET,POST,PUT,PATCH,DELETE",
         credentials: true,
-    }
-))
+    }))
+/*
+
+ */
 app.options('*', cors())
 
 // work done as middle ware body parser

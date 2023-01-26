@@ -37,6 +37,20 @@ exports.signup = async (req, res, next) => {
 }
 
 //sign in function
+exports.userSignin = async (req, res, next) => {
+
+    try {
+        // create token
+        const {_id, role, fullName, firstName, lastName} = req.user
+        const {email} = req.email
+        const token = generateJwtToken(_id, role)
+        //  const currentUser = await User.findById(_id).select('firstName lastName fullName email role')
+        const currentUser = {_id, firstName, lastName, email, role, fullName}
+        return res.status(200).json({token, user: currentUser})
+    } catch (err) {
+        next(err)
+    }
+}
 
 exports.signin = async (req, res, next) => {
     const {email, password} = req.body
@@ -48,12 +62,10 @@ exports.signin = async (req, res, next) => {
         // authenticate in model
         const isPassword = await user.authenticate(password, hash_password)
 
-        if (!isPassword) return next(new ErrorResponse(`invalid password`, 404))
-        // create token
-        const token = generateJwtToken(_id, role)
-        //  const currentUser = await User.findById(_id).select('firstName lastName fullName email role')
-        const currentUser = {_id, firstName, lastName, email, role, fullName}
-        return res.status(200).json({token, currentUser})
+        if (!isPassword) return next(new ErrorResponse(`invalid password`, 401))
+        req.email = email
+        req.user = user
+        next()
     } catch (err) {
         next(err)
     }
