@@ -6,9 +6,11 @@ const {JWT_SECRET} = process.env
 exports.requireSignin = async (req, res, next) => {
     //  console.log(req.headers.authorization)
     // get token
-    const token = req.headers.authorization.split(" ")[1];
-    if (!token) return next(new ErrorResponse('You must log in to access this resource', 401));
     try {
+       // console.log(req.headers.authorization)
+        if (!req.headers.authorization) return next(new ErrorResponse('You must log in to access this resource', 401));
+        const token = req.headers.authorization.split(" ")[1];
+        if (!token) return next(new ErrorResponse('You must log in to access this resource', 401));
         jwt.verify(token, JWT_SECRET, (err, user) => {
             if (err) return next(err);
             req.user = user

@@ -2,34 +2,10 @@ import {default as slugify} from 'slugify';
 import shortid from "shortid";
 import Category from '../models/category'
 import ErrorResponse from "../utils/errorResponse";
-import {removeImage} from "../common-middleware/commonFunctions";
+import {createCategories, removeImage} from "../common-middleware/commonFunctions";
 
 // get all children from the parent
-function createCategories(categories, parentId = null) {
-    const categoryList = [];
-    let category;
-    // parent id null that means it parent itself
-    if (parentId == null) {
 
-        console.log(typeof parentId)
-        category = categories.filter((cat) => cat.parentId == undefined);
-    } else {
-        category = categories.filter((cat) => cat.parentId == parentId);
-    }
-// get all children by using recursive
-    for (let cate of category) {
-        categoryList.push({
-            _id: cate._id,
-            name: cate.name,
-            slug: cate.slug,
-            parentId: cate.parentId,
-            type: cate.type,
-            children: createCategories(categories, cate._id),
-        });
-    }
-
-    return categoryList;
-}
 
 exports.addCategory = async (req, res, next) => {
 

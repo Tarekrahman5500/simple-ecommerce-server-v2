@@ -26,7 +26,7 @@ exports.signup = async (req, res, next) => {
             username: shortid.generate(),
         });
         newUser = await newUser.save()
-        return res.status(200).json(newUser)
+        return res.status(200).json({user: newUser, message: `${email} user saved successfully`})
 
     } catch (err) {
         req.removeImage = req.file.filename
@@ -44,6 +44,7 @@ exports.userSignin = async (req, res, next) => {
         const {_id, role, fullName, firstName, lastName} = req.user
         const {email} = req.email
         const token = generateJwtToken(_id, role)
+        res.cookie("token", token, {expiresIn: "1d"});
         //  const currentUser = await User.findById(_id).select('firstName lastName fullName email role')
         const currentUser = {_id, firstName, lastName, email, role, fullName}
         return res.status(200).json({token, user: currentUser})
@@ -70,3 +71,13 @@ exports.signin = async (req, res, next) => {
         next(err)
     }
 }
+
+exports.signOut = (req, res, next) => {
+    try {
+        res.clearCookie("token");
+        res.status(200).json({message: "Signout successfully...!",});
+    } catch (err) {
+        next(err)
+    }
+};
+
