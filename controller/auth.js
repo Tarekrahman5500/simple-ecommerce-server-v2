@@ -26,9 +26,12 @@ exports.signup = async (req, res, next) => {
             username: shortid.generate(),
         });
         newUser = await newUser.save()
+          /*const pathname = new URL(newUser.profilePicture).pathname;
+                console.log(pathname);*/
         return res.status(200).json({user: newUser, message: `${email} user saved successfully`})
 
     } catch (err) {
+        console.log('here')
         req.removeImage = req.file.filename
         await removeImage(req, res, next)
         next(err)

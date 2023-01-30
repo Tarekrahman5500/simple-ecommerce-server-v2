@@ -1,5 +1,6 @@
 import { body, validationResult } from 'express-validator'
 import ErrorResponse from "../errorResponse";
+import {removeImage} from "../../common-middleware/commonFunctions";
 
 exports.validateSignupRequest = [
     body('firstName')
@@ -26,11 +27,16 @@ exports.validateSigninRequest = [
         .withMessage('Password must be at least 6 character long')
 ];
 
-exports.isRequestValidated = (req, res, next) => {
+exports.isRequestValidated = async (req, res, next) => {
     const errors = validationResult(req);
-  //  console.log(errors)
+    /*if (req.file.filename) {
+        req.removeImage = req.file.filename
+        await removeImage(req, res, next)
+    }*/
+
+    //  console.log(errors)
     if (errors.array().length > 0) {
-       // return res.status(400).json({ error: errors.array()[0].msg })
+        // return res.status(400).json({ error: errors.array()[0].msg })
         next(new ErrorResponse(errors.array()[0].msg, 401))
     }
     next();

@@ -18,9 +18,10 @@ import initialDataRoutes from './routes/admin/initialData'
 const app = express()
 const port = process.env.PORT || 5000
 const api = process.env.API_URL || 'http://127.0.0.1:5173'
+const api2 = process.env.API_URL2 ||  'http://127.0.0.1:3000'
 //handle cors policy
 app.use(cors({
-        origin: api,
+        origin: [api,api2],
         method: "GET,POST,PUT,PATCH,DELETE",
         credentials: true,
     }))

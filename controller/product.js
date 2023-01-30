@@ -2,6 +2,7 @@ import {default as slugify} from 'slugify';
 import Product from '../models/product'
 import ErrorResponse from "../utils/errorResponse";
 import {removeImage} from "../common-middleware/commonFunctions";
+import Category from '../models/category'
 
 exports.createProduct = async (req, res, next) => {
 
@@ -10,7 +11,7 @@ exports.createProduct = async (req, res, next) => {
         let productPictures = [];
         if (req.files.length > 0) {
             productPictures = req.files.map((file) => {
-               // console.log(file)
+
                 return {img: file.path};
             });
         }
@@ -29,7 +30,7 @@ exports.createProduct = async (req, res, next) => {
         if (product) {
             return res.status(201).json({product});
 
-        } else next(new ErrorResponse('Failed to create product',401))
+        } else next(new ErrorResponse('Failed to create product', 401))
     } catch (err) {
         // remove images fom cloudinary
         if (req.files.length > 0) {
@@ -42,4 +43,53 @@ exports.createProduct = async (req, res, next) => {
         }
     }
 };
+
+exports.getProductsBySlug = async (req, res, next) => {
+    try {
+        const {slug} = req.params;
+        const category = await Category.findOne({slug: slug})
+        if (category) {
+            const products = await Product.find({category: category._id})
+            if (products) {
+               // if (category.type) {
+                    if (products.length > 0) {
+                        res.status(200).json({
+                            products,
+                            priceRange: {
+                                under5k: 5000,
+                                under10k: 10000,
+                                under15k: 15000,
+                                under20k: 20000,
+                                under30k: 30000,
+                            },
+                            productsByPrice: {
+                                under5k: products.filter((product) => product.price <= 5000),
+                                under10k: products.filter(
+                                    (product) => product.price > 5000 && product.price <= 10000
+                                ),
+                                under15k: products.filter(
+                                    (product) => product.price > 10000 && product.price <= 15000
+                                ),
+                                under20k: products.filter(
+                                    (product) => product.price > 15000 && product.price <= 20000
+                                ),
+                                under30k: products.filter(
+                                    (product) => product.price > 20000 && product.price <= 30000
+                                ),
+                            },
+                        });
+                    }
+                //}
+            /*else {
+                    res.status(200).json({products});
+                }*/
+            } else next(new ErrorResponse('Product not found', 404))
+
+        } else next(new ErrorResponse('Category not found', 404))
+
+    } catch (err) {
+        next(err)
+    }
+
+}
 

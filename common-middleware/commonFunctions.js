@@ -18,7 +18,7 @@ exports.removeImage = async (req, res, next) => {
     try {
       //  console.log(req.removeImage)
         const imageId = req.removeImage
-      //  console.log(imageId)
+         console.log(imageId)
         await cloudinary.uploader.destroy(imageId,
             { invalidate: true, resource_type: "image" },
             function (error, result) {
