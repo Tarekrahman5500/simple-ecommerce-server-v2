@@ -44,3 +44,41 @@ exports.getCategory = async (req, res, next) => {
         next(err)
     }
 }
+
+exports.updateCategories = async (req, res, next) => {
+
+    try {
+        const {_id, name, parentId, type} = req.body;
+        // console.log(_id, name, parentId, type)
+
+        const updatedCategories = [];
+        if (name instanceof Array) {
+            for (let i = 0; i < name.length; i++) {
+                const category = {
+                    name: name[i],
+                    type: type[i],
+                };
+                if (parentId[i] !== "") {
+                    category.parentId = parentId[i];
+                }
+                const updatedCategory = await Category.findOneAndUpdate({_id: _id[i]}, category, {new: true}
+                );
+
+                updatedCategories.push(updatedCategory);
+            }
+            return res.status(201).json({updateCategories: updatedCategories});
+        } else {
+            const category = {name, type};
+            if (parentId !== "") {
+                category.parentId = parentId;
+            }
+            const updatedCategory = await Category.findOneAndUpdate({_id}, category, {
+                new: true,
+            });
+            return res.status(201).json({updatedCategory});
+        }
+    } catch
+        (err) {
+        next(err)
+    }
+}
