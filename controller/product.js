@@ -51,7 +51,7 @@ exports.getProductsBySlug = async (req, res, next) => {
         if (category) {
             const products = await Product.find({category: category._id})
             if (products) {
-               // if (category.type) {
+                if (category.type) {
                     if (products.length > 0) {
                         res.status(200).json({
                             products,
@@ -79,10 +79,10 @@ exports.getProductsBySlug = async (req, res, next) => {
                             },
                         });
                     }
-                //}
-            /*else {
+                }
+            else {
                     res.status(200).json({products});
-                }*/
+                }
             } else next(new ErrorResponse('Product not found', 404))
 
         } else next(new ErrorResponse('Category not found', 404))

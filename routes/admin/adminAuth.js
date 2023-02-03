@@ -12,7 +12,7 @@ router.post('/admin/signup', requireSignin, requireSuperAdmin,
 
 router.post('/admin/signin', validateSigninRequest, isRequestValidated, signin,requireAdmin, userSignin)
 
-router.post('/admin/signout',requireSignin, signOut)
+router.post('/admin/signout', signOut)
 
 
 module.exports = router;

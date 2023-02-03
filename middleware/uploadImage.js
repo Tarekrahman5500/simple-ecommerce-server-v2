@@ -1,12 +1,12 @@
-
 import {CloudinaryStorage} from "multer-storage-cloudinary";
 import multer from "multer";
 import cloudinary from '../utils/cloud'
-
+import ErrorResponse from "../utils/errorResponse";
 
 
 const fileFilter = (req, file, cb) => {
-   // console.log(file)
+    // console.log(file)
+   // if (!file) return res.status(201).json('No image Upload', 400))
     if (file.mimetype === 'image/jpeg' || file.mimetype === 'image/png' || file.mimetype === 'image/jpg') {
         cb(null, true)
     } else {
