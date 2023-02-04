@@ -1,9 +1,14 @@
 import Page from '../../models/page'
+import ErrorResponse from "../../utils/errorResponse";
 
 exports.createPage = async (req, res, next) => {
     try {
+        console.log(req.files)
+        if (!req.files) {
+            return res.status(400).send('No file selected.');
+        }
         const {banners, products} = req.files;
-          console.log(req.body)
+        console.log(req.body)
         if (banners && banners.length > 0) {
             req.body.banners = banners.map((banner, index) => ({
                 img: banner.path,
@@ -21,13 +26,13 @@ exports.createPage = async (req, res, next) => {
         if (page) {
             const newPage = await Page.findOneAndUpdate({category: req.body.category}, req.body)
             if (newPage) {
-                 console.log(newPage)
+               // console.log(newPage)
                 return res.status(201).json({page: newPage});
             }
         } else {
             const page = new Page(req.body);
             const newPage = await page.save()
-            console.log(newPage)
+          //  console.log(newPage)
             if (newPage) return res.status(201).json({page});
 
         }
@@ -36,4 +41,19 @@ exports.createPage = async (req, res, next) => {
         next(err)
     }
 
+}
+
+exports.getPage = async (req, res, next) => {
+
+    try {
+        const {category, type} = req.params;
+        if (type === "page") {
+            const page = await Page.findOne({ category: category})
+           // console.log(page)
+            if (page)  return res.status(200).json({ page })
+            else return res.status(400).json({error: 'Page not found' });
+        }
+            } catch (err) {
+        next(err)
+    }
 }
