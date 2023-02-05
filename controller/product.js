@@ -79,8 +79,7 @@ exports.getProductsBySlug = async (req, res, next) => {
                             },
                         });
                     }
-                }
-            else {
+                } else {
                     res.status(200).json({products});
                 }
             } else next(new ErrorResponse('Product not found', 404))
@@ -91,5 +90,19 @@ exports.getProductsBySlug = async (req, res, next) => {
         next(err)
     }
 
+}
+
+exports.getProductDetailsById = async (req, res, next) => {
+    try {
+        const {productId} = req.params;
+        if (!productId) next(new ErrorResponse('params not found'))
+
+        const product = await Product.findOne({_id: productId})
+
+        if (product) res.status(200).json({product})
+        else next(new ErrorResponse('Product not found', 404))
+    } catch (err) {
+        next(err)
+    }
 }
 
