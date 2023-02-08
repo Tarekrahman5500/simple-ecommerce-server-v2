@@ -15,17 +15,18 @@ import productRoutes from './routes/products'
 import cartRoutes from './routes/cart'
 import initialDataRoutes from './routes/admin/initialData'
 import pageRoutes from './routes/admin/page'
+import addressRoutes from './routes/address'
 
 const app = express()
 const port = process.env.PORT || 5000
 const api = process.env.API_URL || 'http://127.0.0.1:5173'
-const api2 = process.env.API_URL2 ||  'http://127.0.0.1:3000'
+const api2 = process.env.API_URL2 || 'http://127.0.0.1:3000'
 //handle cors policy
 app.use(cors({
-        origin: [api,api2],
-        method: "GET,POST,PUT,PATCH,DELETE",
-        credentials: true,
-    }))
+    origin: [api, api2],
+    method: "GET,POST,PUT,PATCH,DELETE",
+    credentials: true,
+}))
 /*
 
  */
@@ -65,6 +66,7 @@ app.use('/api', productRoutes)
 app.use('/api', cartRoutes)
 app.use('/api', initialDataRoutes);
 app.use('/api', pageRoutes);
+app.use('/api', addressRoutes)
 // handle error
 app.use(errorHandler)
 //run the server
