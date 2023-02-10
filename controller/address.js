@@ -26,7 +26,7 @@ exports.addAddress = async (req, res, next) => {
                 },
                 {new: true, upsert: true}
             )
-            if (!address) return next(new ErrorResponse('User address not found', 400))
+            if (!address) return next(new ErrorResponse('User address not be insert', 400))
             return res.status(201).json({address})
         }
 

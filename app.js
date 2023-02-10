@@ -16,6 +16,7 @@ import cartRoutes from './routes/cart'
 import initialDataRoutes from './routes/admin/initialData'
 import pageRoutes from './routes/admin/page'
 import addressRoutes from './routes/address'
+import orderRoutes  from './routes/order'
 
 const app = express()
 const port = process.env.PORT || 5000
@@ -67,6 +68,7 @@ app.use('/api', cartRoutes)
 app.use('/api', initialDataRoutes);
 app.use('/api', pageRoutes);
 app.use('/api', addressRoutes)
+app.use('/api', orderRoutes);
 // handle error
 app.use(errorHandler)
 //run the server

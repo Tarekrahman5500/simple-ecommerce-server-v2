@@ -66,6 +66,7 @@ exports.getCartItems = async (req, res, next) => {
     try {
         const cart = await Cart.findOne({user: req.user._id})
             .populate("cartItems.product", "_id name price productPictures")
+          console.log(req.user._id)
         if (!cart) return next(new ErrorResponse('cart not found', 400));
         let cartItems = {};
         cart.cartItems.forEach((item, index) => {

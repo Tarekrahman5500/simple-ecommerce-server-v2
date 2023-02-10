@@ -44,12 +44,14 @@ exports.userSignin = async (req, res, next) => {
 
     try {
         // create token
-        const {_id, role, fullName, firstName, lastName} = req.user
-        const {email} = req.email
+        const {_id, role, fullName, firstName, lastName, email} = req.user
+       // const {email} = req.email
+     //   console.log(email)
         const token = generateJwtToken(_id, role)
         res.cookie("token", token, {expiresIn: "1d"});
         //  const currentUser = await User.findById(_id).select('firstName lastName fullName email role')
         const currentUser = {_id, firstName, lastName, email, role, fullName}
+       // console.log(currentUser)
         return res.status(200).json({token, user: currentUser})
     } catch (err) {
         next(err)
@@ -67,8 +69,10 @@ exports.signin = async (req, res, next) => {
         const isPassword = await user.authenticate(password, hash_password)
 
         if (!isPassword) return next(new ErrorResponse(`invalid password`, 401))
+
         req.email = email
         req.user = user
+        //  console.log(req.user)
         next()
     } catch (err) {
         next(err)
