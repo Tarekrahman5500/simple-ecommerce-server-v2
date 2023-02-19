@@ -33,7 +33,7 @@ exports.signup = async (req, res, next) => {
     } catch (err) {
         console.log('here')
         req.removeImage = req.file.filename
-        await removeImage(req, res, next)
+       await removeImage(req, res, next)
         next(err)
     }
 

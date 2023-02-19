@@ -58,11 +58,12 @@ exports.getOrders = async (req, res, next) => {
 
 exports.getOrder = async (req, res, next) => {
     try {
+        console.log('here')
         const order = await Order.findOne({_id: req.body.orderId})
             .populate("items.productId", "_id name productPictures")
             .lean()
         if (!order) return next(new ErrorResponse('failed to find order', 404));
-        const addresses = await Addresses.find({user: req.user._id})
+        const addresses = await Addresses.findOne({user: req.user._id})
         if (!addresses) return next(new ErrorResponse('failed to find address', 404));
         order.address = await addresses.address.find(
             (adr) => adr._id.toString() == order.addressId.toString()

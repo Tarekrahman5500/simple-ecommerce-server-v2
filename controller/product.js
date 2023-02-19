@@ -47,7 +47,7 @@ exports.createProduct = async (req, res, next) => {
 exports.getProductsBySlug = async (req, res, next) => {
     try {
         const {slug} = req.params;
-        const category = await Category.findOne({slug: slug})
+        const category = await Category.findOne({slug: slug}).select("_id type")
         if (category) {
             const products = await Product.find({category: category._id})
             if (products) {
