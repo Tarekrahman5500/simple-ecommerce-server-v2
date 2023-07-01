@@ -1,6 +1,5 @@
 import { body, validationResult } from 'express-validator'
 import ErrorResponse from "../errorResponse";
-import {removeImage} from "../../common-middleware/commonFunctions";
 
 exports.validateSignupRequest = [
     body('firstName')
