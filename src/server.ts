@@ -13,7 +13,7 @@ async function connectToDatabase(url: string ): Promise<void> {
         if (!url) Logger.error('MongoDB url not specified');
 
             await mongoose.connect(url, {
-                dbName: 'ts-database',
+                  dbName: 'shop-database',
             });
             Logger.info('Mongoose connected');
     } catch (error) {

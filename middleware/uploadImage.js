@@ -14,12 +14,14 @@ const fileFilter = (req, file, cb) => {
     }
 }
 
+/*
 const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
         folder: "profilePic",
     },
 });
+*/
 
 const upload = multer({
     storage: storage,

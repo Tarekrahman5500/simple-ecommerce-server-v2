@@ -26,7 +26,16 @@ const productSchema = new Schema({
     },
     offer: { type: Number },
     productPictures: [
-        { img: { type: String } }
+      {
+      public_id: {
+        type: String,
+        required: true,
+      },
+      url: {
+        type: String,
+        required: true,
+      },
+    },
     ],
     reviews: [
         {

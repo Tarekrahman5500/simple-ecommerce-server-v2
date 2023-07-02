@@ -3,6 +3,7 @@ import Product from '../models/product'
 import ErrorResponse from "../utils/errorResponse";
 import {removeImage} from "../common-middleware/commonFunctions";
 import Category from '../models/category'
+import catchAsyncErrors from "../src/error-handler/catchAsyncError";
 
 exports.createProduct = async (req, res, next) => {
 
@@ -92,10 +93,9 @@ exports.getProductsBySlug = async (req, res, next) => {
 
 }
 
-exports.getProductDetailsById = async (req, res, next) => {
+exports.getProductDetailsById = catchAsyncErrors(async (req, res, next) => {
     try {
         const {productId} = req.params;
-        if (!productId) next(new ErrorResponse('params not found'))
 
         const product = await Product.findOne({_id: productId})
 
@@ -104,5 +104,5 @@ exports.getProductDetailsById = async (req, res, next) => {
     } catch (err) {
         next(err)
     }
-}
+})
 

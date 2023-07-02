@@ -1,6 +1,23 @@
-import {model, Schema} from "mongoose";
+import {Schema, Document, model} from 'mongoose';
 
-const categorySchema = new Schema(
+interface IUser {
+    _id: Schema.Types.ObjectId;
+}
+
+interface ICategory extends Document {
+    name: string;
+    slug: string;
+    type?: string;
+    categoryImage: {
+        public_id: string;
+        url: string;
+    };
+    parentId?: string;
+    createdBy: IUser['_id'];
+    updatedAt?: Date;
+}
+
+const categorySchema = new Schema<ICategory>(
     {
         name: {
             type: String,
@@ -16,7 +33,7 @@ const categorySchema = new Schema(
             type: String,
         },
         categoryImage: {
-           public_id: {
+            public_id: {
                 type: String,
                 required: true,
             },
@@ -30,12 +47,14 @@ const categorySchema = new Schema(
         },
         createdBy: {
             type: Schema.Types.ObjectId,
-            ref: "User",
+            ref: 'User',
             required: true,
         },
+        updatedAt: Date,
     },
     {timestamps: true}
 );
 
-module.exports = model("Category", categorySchema);
+const Category = model<ICategory>('Category', categorySchema);
 
+export default Category;

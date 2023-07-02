@@ -1,2 +1,190 @@
 2023-07-02 04:03:31:331 [32minfo[39m: [32mMongoose connected[39m
 2023-07-02 04:03:31:331 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:05:08:58 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:05:08:58 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:19:30:1930 [32minfo[39m: [32mServer closed[39m
+2023-07-02 04:20:11:2011 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:20:11:2011 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:20:13:2013 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-02 04:20:13:2013 [32minfo[39m: [32mPath:[39m
+2023-07-02 04:20:13:2013 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-02 04:20:13:2013 [32minfo[39m: [32mError is known.[39m
+2023-07-02 04:20:13:2013 [35mhttp[39m: [35mGET / 404 63 - 9.140 ms[39m
+[35m[39m
+2023-07-02 04:20:13:2013 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-02 04:20:13:2013 [32minfo[39m: [32mPath:[39m
+2023-07-02 04:20:13:2013 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-02 04:20:13:2013 [32minfo[39m: [32mError is known.[39m
+2023-07-02 04:20:13:2013 [35mhttp[39m: [35mGET /favicon.ico 404 74 - 4.056 ms[39m
+[35m[39m
+2023-07-02 04:20:45:2045 [35mhttp[39m: [35mGET /api/notes 200 542 - 313.743 ms[39m
+[35m[39m
+2023-07-02 04:22:42:2242 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:22:42:2242 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:24:26:2426 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:24:26:2426 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:24:57:2457 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:24:57:2457 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:25:18:2518 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:25:18:2518 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:27:32:2732 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:27:32:2732 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:27:58:2758 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 04:27:58:2758 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 04:31:47:3147 [32minfo[39m: [32mServer closed[39m
+2023-07-02 23:21:28:2128 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:21:28:2128 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:21:48:2148 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:21:48:2148 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:21:56:2156 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:21:56:2156 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:24:01:241 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:24:01:241 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:24:41:2441 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:24:41:2441 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:25:13:2513 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-02 23:25:13:2513 [32minfo[39m: [32mPath:[39m
+2023-07-02 23:25:13:2513 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-02 23:25:13:2513 [32minfo[39m: [32mError is known.[39m
+2023-07-02 23:25:13:2513 [35mhttp[39m: [35mGET /api/products/samsung 404 83 - 7.638 ms[39m
+[35m[39m
+2023-07-02 23:25:35:2535 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-02 23:25:35:2535 [32minfo[39m: [32mPath:[39m
+2023-07-02 23:25:35:2535 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-02 23:25:35:2535 [32minfo[39m: [32mError is known.[39m
+2023-07-02 23:25:35:2535 [35mhttp[39m: [35mGET /api/product/samsung 404 71 - 290.971 ms[39m
+[35m[39m
+2023-07-02 23:26:15:2615 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:26:15:2615 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:26:27:2627 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-02 23:26:27:2627 [32minfo[39m: [32mPath:[39m
+2023-07-02 23:26:27:2627 [31merror[39m: [31mError occured: The field name '$sum' cannot be an operator name[39m
+2023-07-02 23:26:27:2627 [35mhttp[39m: [35mGET /api/product/mobile-GSTzqRtTP 500 35 - 905.328 ms[39m
+[35m[39m
+2023-07-02 23:37:58:3758 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:37:58:3758 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:38:04:384 [35mhttp[39m: [35mGET /api/product/mobile-GSTzqRtTP 200 919 - 856.492 ms[39m
+[35m[39m
+2023-07-02 23:40:46:4046 [35mhttp[39m: [35mGET /api/product/samsung-4a88ikbE2 200 26355 - 1139.419 ms[39m
+[35m[39m
+2023-07-02 23:43:51:4351 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:43:51:4351 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:44:23:4423 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:44:23:4423 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:46:30:4630 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:46:30:4630 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:48:08:488 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:48:08:488 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:48:20:4820 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-02 23:48:20:4820 [32minfo[39m: [32mPath:[39m
+2023-07-02 23:48:20:4820 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-02 23:48:20:4820 [32minfo[39m: [32mError is known.[39m
+2023-07-02 23:48:20:4820 [35mhttp[39m: [35mGET /api/product/63cc236a153f08cd17d2aec5 404 89 - 300.615 ms[39m
+[35m[39m
+2023-07-02 23:49:35:4935 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:49:35:4935 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:49:40:4940 [35mhttp[39m: [35mGET /api/product/slug/samsung-4a88ikbE2 200 26355 - 1184.473 ms[39m
+[35m[39m
+2023-07-02 23:49:46:4946 [35mhttp[39m: [35mGET /api/product/63cc236a153f08cd17d2aec5 200 609 - 291.939 ms[39m
+[35m[39m
+2023-07-02 23:54:21:5421 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:54:21:5421 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:58:37:5837 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:58:37:5837 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-02 23:59:37:5937 [32minfo[39m: [32mMongoose connected[39m
+2023-07-02 23:59:37:5937 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 00:01:37:137 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 00:01:37:137 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 00:47:24:4724 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 00:47:24:4724 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 00:49:26:4926 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-03 00:49:26:4926 [32minfo[39m: [32mPath:[39m
+2023-07-03 00:49:26:4926 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "Product"[39m
+2023-07-03 00:49:26:4926 [35mhttp[39m: [35mGET /api/product/create?picture= 400 46 - 13.442 ms[39m
+[35m[39m
+2023-07-03 00:49:48:4948 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 304232 - 15.470 ms[39m
+[35m[39m
+2023-07-03 00:54:13:5413 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 00:54:14:5414 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 00:54:24:5424 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 956121 - 31.963 ms[39m
+[35m[39m
+2023-07-03 00:55:32:5532 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 00:55:32:5532 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 00:59:53:5953 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 00:59:53:5953 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:02:43:243 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:02:43:243 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:03:47:347 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:03:47:347 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:10:06:106 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:10:06:106 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:10:17:1017 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-03 01:10:17:1017 [32minfo[39m: [32mPath:[39m
+2023-07-03 01:10:17:1017 [31merror[39m: [31mError occured: ENOENT: no such file or directory, open 'D:\tarek\Programs\WebStromeProject\test\simple-ecommerce-server-v2\uploads\48e54617b2b490234abb535955713518'[39m
+2023-07-03 01:10:17:1017 [35mhttp[39m: [35mPOST /api/product/create?picture= 500 35 - 8.495 ms[39m
+[35m[39m
+2023-07-03 01:10:30:1030 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-03 01:10:30:1030 [32minfo[39m: [32mPath:[39m
+2023-07-03 01:10:30:1030 [31merror[39m: [31mError occured: ENOENT: no such file or directory, open 'D:\tarek\Programs\WebStromeProject\test\simple-ecommerce-server-v2\uploads\672392091ab3270864892b7cad9ef23f'[39m
+2023-07-03 01:10:30:1030 [35mhttp[39m: [35mPOST /api/product/create?picture= 500 35 - 3.591 ms[39m
+[35m[39m
+2023-07-03 01:11:09:119 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 453 - 7.132 ms[39m
+[35m[39m
+2023-07-03 01:21:49:2149 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:21:49:2149 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:21:54:2154 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 453 - 13.184 ms[39m
+[35m[39m
+2023-07-03 01:27:25:2725 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:27:25:2725 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:27:27:2727 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 453 - 12.056 ms[39m
+[35m[39m
+2023-07-03 01:27:54:2754 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:27:54:2754 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:27:56:2756 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 453 - 9.789 ms[39m
+[35m[39m
+2023-07-03 01:29:31:2931 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:29:31:2931 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:29:33:2933 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 453 - 17.263 ms[39m
+[35m[39m
+2023-07-03 01:34:45:3445 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:34:45:3445 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:34:47:3447 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 453 - 17.858 ms[39m
+[35m[39m
+2023-07-03 01:35:19:3519 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:35:19:3519 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:35:20:3520 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 453 - 18.207 ms[39m
+[35m[39m
+2023-07-03 01:36:50:3650 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:36:50:3650 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:36:54:3654 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 2 - 16.846 ms[39m
+[35m[39m
+2023-07-03 01:38:40:3840 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:38:40:3840 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:38:46:3846 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 2 - 17.685 ms[39m
+[35m[39m
+2023-07-03 01:40:39:4039 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:40:39:4039 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:41:06:416 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 2 - 18.048 ms[39m
+[35m[39m
+2023-07-03 01:42:22:4222 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:42:22:4222 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:42:23:4223 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 2 - 18.430 ms[39m
+[35m[39m
+2023-07-03 01:47:09:479 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:47:09:479 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:47:15:4715 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 2 - 9.824 ms[39m
+[35m[39m
+2023-07-03 01:48:32:4832 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:48:32:4832 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:48:43:4843 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 301 - 3873.173 ms[39m
+[35m[39m
+2023-07-03 01:49:21:4921 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:49:21:4921 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:49:33:4933 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:49:33:4933 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:53:34:5334 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:53:34:5334 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:53:43:5343 [32minfo[39m: [32mMongoose connected[39m
+2023-07-03 01:53:43:5343 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-03 01:53:50:5350 [35mhttp[39m: [35mPOST /api/product/create?picture= 201 301 - 4124.421 ms[39m
+[35m[39m
