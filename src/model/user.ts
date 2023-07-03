@@ -1,13 +1,13 @@
-import { Schema, Document, model } from 'mongoose';
+import {Schema, Document, model} from 'mongoose';
 import bcrypt from 'bcrypt';
 
-interface User extends Document {
+ export interface IUser extends Document {
     firstName: string;
     lastName: string;
     username: string;
     email: string;
     hash_password: string;
-    role: 'user' | 'admin' | 'super-admin';
+    role: 'user' | 'admin' ;
     contactNumber: string;
     profilePicture: {
         public_id: string;
@@ -19,7 +19,7 @@ interface User extends Document {
     authenticate: (password: string) => Promise<boolean>;
 }
 
-const userSchema = new Schema<User>(
+const userSchema = new Schema<IUser>(
     {
         firstName: {
             type: String,
@@ -72,19 +72,20 @@ const userSchema = new Schema<User>(
                 type: String,
                 required: true,
             },
+
         },
     },
-    { timestamps: true }
+    {timestamps: true}
 );
 
 // Define the virtual property 'fullName'
-userSchema.virtual('fullName').get(function (this: User) {
+userSchema.virtual('fullName').get(function (this: IUser) {
     return `${this.firstName} ${this.lastName}`;
 });
 
 // Define the 'authenticate' method
-userSchema.methods.authenticate = async function (this: User, password: string): Promise<boolean> {
+userSchema.methods.authenticate = async function (this: IUser, password: string): Promise<boolean> {
     return bcrypt.compareSync(password, this.hash_password);
 };
 
-export default model<User>('User', userSchema);
+export default model<IUser>('User', userSchema);

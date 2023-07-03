@@ -2,6 +2,7 @@ import express from 'express'
 import 'dotenv/config'
 import morganMiddleware from './config/morganMiddleware'
 import productRoutes from './routes/product'
+import userRoutes from './routes/user'
 import {ErrorException} from "./error-handler/errorException";
 import {ErrorCode} from "./error-handler/errorCode";
 const app = express()
@@ -17,6 +18,7 @@ app.use(express.urlencoded({extended: false}));
 
 
 app.use('/api/product', productRoutes)
+app.use('/api/user', userRoutes)
 app.use((req, res, next) => {
     next(new ErrorException(ErrorCode.NotFound, `path: ${req.originalUrl} not found`))
 })

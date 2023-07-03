@@ -1,4 +1,5 @@
 import {NextFunction, Request, Response} from "express";
+import Logger from "../lib/logger";
 
 
 const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunction) => {
@@ -6,7 +7,7 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
     let message: string
     let status: number
     status = 500
-    message = "Internal Server Error";
+    message = "";
   //  console.log(err)
     if (err.name === "CastError") {
         message = `Resource not found. Invalid: ${err.path}`;
@@ -39,9 +40,11 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
     /*
         req.customData = 'Hello from middleware 1';
         next();*/
+    const error: Error = err
+    //Logger.error(error)
 
     res.status(status).json({
-        message,
+        message: message || error,
     });
 
 }

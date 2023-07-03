@@ -1,13 +1,13 @@
 import {RequestHandler} from 'express';
 import {Document} from 'mongoose';
 import slugify from 'slugify';
-import Product, {IProduct} from "../model/product";
+import Product from "../model/product";
 import Category from "../model/category";
 import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import catchAsyncErrors from "../error-handler/catchAsyncError";
-import cloudinary from '../util/clodninary'
-import * as fs from "fs";
+import {IFile, IProductResponse} from "../types/decs";
+import {deleteFolderRecursive, uploadFileToCloudinary} from "../middleware/imageupload";
 
 /**
  * Get products by slug
@@ -18,11 +18,6 @@ import * as fs from "fs";
  * @returns {object} 500 - Internal server error
  */
 
-interface IProductResponse {
-    products: (Document & Omit<IProduct, '_id'>)[];
-    priceRange?: any;
-    productsByPrice?: Record<string, Document[]>;
-}
 
 export const getProductsBySlug: RequestHandler = catchAsyncErrors(async (req, res, next) => {
 
@@ -78,19 +73,6 @@ export const getProductDetailsById: RequestHandler = catchAsyncErrors(async (req
 });
 
 
-interface IFile {
-    fieldname: string;
-    originalname: string;
-    encoding: string;
-    mimetype: string;
-    buffer: Buffer;
-    size: number;
-    destination: string,
-    filename: string,
-    path: string,
-
-}
-
 export const createProduct = catchAsyncErrors(async (req, res, next) => {
 
     const {name, price, description, category, quantity} = req.body;
@@ -98,23 +80,22 @@ export const createProduct = catchAsyncErrors(async (req, res, next) => {
     const files = req.files as IFile[]
     if (!files) return next?.(new ErrorException(ErrorCode.NotFound, `image must be upload`))
 
-    for (let i = 0; i < files.length ; i++) {
-        const result = await cloudinary.uploader.upload(files[i].path, {
-                folder: "products",
-            });
-            productPictures.push({
-                public_id: result.public_id,
-                url: result.secure_url,
+    for (let i = 0; i < files.length; i++) {
 
-            })
+        const result = await uploadFileToCloudinary("products", files[i].path, next)
+        productPictures.push({
+            public_id: result.public_id,
+            url: result.secure_url,
+
+        })
 
     }
 
-    req.body.productPictures = await productPictures
+    req.body.productPictures = productPictures
     deleteFolderRecursive('uploads')
 
 
-    /*  let product = new Product({
+      let product = new Product({
           name: name,
           slug: slugify(name),
           price,
@@ -125,26 +106,22 @@ export const createProduct = catchAsyncErrors(async (req, res, next) => {
           createdBy: req.user?._id,
       });
 
-      product = await product.save();*/
+      product = await product.save();
 
-    return res.status(201).json( req.body.productPictures);
+    return res.status(201).json(req.body.productPictures);
 
 
 });
 
-const deleteFolderRecursive = (path: string): void => {
-  if (fs.existsSync(path)) {
-    fs.readdirSync(path).forEach((file) => {
-      const curPath = `${path}/${file}`;
-      if (fs.lstatSync(curPath).isDirectory()) {
-        deleteFolderRecursive(curPath);
-        fs.rmdirSync(curPath);
-      } else {
-        fs.unlinkSync(curPath);
-      }
-    });
-  }
-};
 
+// update product
+
+export const updateProduct = catchAsyncErrors(async (req, res, next) => {
+
+    const {productId} = req.params;
+    const product = await Product.findOne({_id: productId});
+
+
+})
 
 

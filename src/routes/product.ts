@@ -1,8 +1,7 @@
 
 import express, {Router} from "express";
-import {isRequestValidated, validateNotes} from "../util/validatorNote";
 import {createProduct, getProductDetailsById, getProductsBySlug} from "../controller/product";
-import upload from "../middleware/uploadImage";
+import upload from "../util/uploadImage";
 
 
 const router: Router = express.Router();

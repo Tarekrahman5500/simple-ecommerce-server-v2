@@ -1,7 +1,10 @@
 import {model, Schema, Document} from 'mongoose';
 
 interface Banner extends Document {
-    img: string;
+     img: {
+        public_id: string;
+        url: string;
+    };
     navigateTo: string;
 }
 
@@ -9,6 +12,7 @@ interface Product extends Document {
     img: {
         public_id: string;
         url: string;
+
     };
     navigateTo: string;
 }
@@ -38,7 +42,16 @@ const pageSchema = new Schema<Page>(
         },
         banners: [
             {
-                img: {type: String},
+                img: {
+                    public_id: {
+                        type: String,
+                        required: true,
+                    },
+                    url: {
+                        type: String,
+                        required: true,
+                    }
+                },
                 navigateTo: {type: String},
             },
         ],
@@ -52,7 +65,8 @@ const pageSchema = new Schema<Page>(
                     url: {
                         type: String,
                         required: true,
-                    }
+                    },
+
                 },
                 navigateTo: {type: String},
             },
