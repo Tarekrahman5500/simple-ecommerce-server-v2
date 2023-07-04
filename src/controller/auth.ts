@@ -1,46 +1,55 @@
 import bcrypt from "bcrypt";
-//import shortid from 'shortid';
-
-//import { checkEmail, generateJwtToken, removeImage } from "../common-middleware/commonFunctions";
-import {IUser} from "../model/user";
+import shortid from 'shortid';
+import User, {IUser} from "../model/user";
 import catchAsyncErrors from "../error-handler/catchAsyncError";
 import {checkEmail, generateJwtToken} from "../middleware/commonFunctions";
 import env from "../util/validateEnv";
 import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
+import {IFile, IProfilePic} from "../types/decs";
+import {deleteFolderRecursive, uploadFileToCloudinary} from "../middleware/imageupload";
 
-/*export const signup = async (req: Request, res: Response, next: NextFunction) => {
-  try {
-    let role = 'user';
-    if (req.allow) role = req.allow;
-    const { firstName, lastName, email, password } = req.body;
+export const createAccount = catchAsyncErrors(async (req, res, next) => {
+
+    const role = 'user';
+    // if (req.allow) role = req.allow;
+    const {firstName, lastName, email, password} = req.body;
 
     if (await checkEmail(email)) {
-      return next(new ErrorResponse(`${email} already exists`, 400));
+        return next?.(new ErrorException(ErrorCode.ValidationError, `${email} already exist`));
     }
+    const file = req.file as IFile
+    // console.log(file);
+    if (!file) return next?.(new ErrorException(ErrorCode.NotFound, `image must be upload`))
+
+    const result = await uploadFileToCloudinary("user", file.path, next)
+
+    const profilePicture: IProfilePic = {public_id: "", url: ""}
+
+    profilePicture.url = result.secure_url
+    profilePicture.public_id = result.public_id
+    deleteFolderRecursive('uploads')
+
 
     const hash_password = await bcrypt.hash(password, 10);
     let newUser = new User({
-      firstName,
-      lastName,
-      email,
-      hash_password,
-      role,
-      profilePicture: req.file.path,
-      username: shortid.generate(),
+        firstName,
+        lastName,
+        email,
+        hash_password,
+        role,
+        profilePicture: profilePicture,
+        username: shortid.generate(),
     });
 
     newUser = await newUser.save();
 
-    return res.status(200).json({ user: newUser, message: `${email} user saved successfully` });
-  } catch (err) {
-   // req.removeImage = req.file.filename;
-   // await removeImage(req, res, next);
-    next(err);
-  }
-};*/
+    return res.status(200).json({user: newUser, message: `${email} user saved successfully`});
+    // return res.status(200).json(profilePicture);
 
-/// login verify processs
+});
+
+/// login verify process
 export const verifyLogin = catchAsyncErrors(async (req, res) => {
 
     const {_id, role, fullName, firstName, lastName, email} = req.user as IUser;
@@ -57,23 +66,18 @@ export const verifyLogin = catchAsyncErrors(async (req, res) => {
 
 ///  user login request
 export const login = catchAsyncErrors(async (req, res, next) => {
-  const { email, password } = req.body;
-  const user = await checkEmail(email);
+    const {email, password} = req.body;
+    const user = await checkEmail(email);
 
-  if (!user) {
-    return next?.(new ErrorException(ErrorCode.NotFound,`${email} not found`));
-  }
-
-  const {  _id, role, fullName, firstName, lastName } = user;
-
+    if (!user) {
+        return next?.(new ErrorException(ErrorCode.NotFound, `${email} not found`));
+    }
 
     const isPassword = await user.authenticate(password);
 
     if (!isPassword) {
-      return next?.(new ErrorException(ErrorCode.NotFound,`invalid password`));
+        return next?.(new ErrorException(ErrorCode.NotFound, `invalid password`));
     }
-
-
     req.user = user;
     next?.();
 
@@ -81,7 +85,11 @@ export const login = catchAsyncErrors(async (req, res, next) => {
 
 export const logOut = catchAsyncErrors(async (req, res) => {
 
-        res.clearCookie("token");
-        res.status(200).json({message: "Sign out successfully...!"});
+    res.clearCookie("token");
+    res.status(200).json({message: "Sign out successfully...!"});
 
 });
+
+/// remove user account
+
+

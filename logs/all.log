@@ -304,3 +304,31 @@
 [35m[39m
 2023-07-04 01:17:38:1738 [35mhttp[39m: [35mPOST /api/user/logout 200 39 - 1.255 ms[39m
 [35m[39m
+2023-07-04 01:19:18:1918 [32minfo[39m: [32mServer closed[39m
+2023-07-05 01:04:11:411 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 01:04:11:411 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 01:04:27:427 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 01:04:27:427 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 01:05:29:529 [35mhttp[39m: [35mPOST /api/user/signin 200 47 - 394.919 ms[39m
+[35m[39m
+2023-07-05 01:05:37:537 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 01:05:37:537 [32minfo[39m: [32mPath:[39m
+2023-07-05 01:05:37:537 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 01:05:37:537 [32minfo[39m: [32mError is known.[39m
+2023-07-05 01:05:37:537 [35mhttp[39m: [35mPOST /api/user/signin 404 66 - 289.428 ms[39m
+[35m[39m
+2023-07-05 01:13:20:1320 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 01:13:20:1320 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 01:16:00:160 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 01:16:00:160 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 01:16:06:166 [35mhttp[39m: [35mPOST /api/user/signin 200 141 - 2813.320 ms[39m
+[35m[39m
+2023-07-05 01:21:36:2136 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 01:21:36:2136 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 01:23:19:2319 [35mhttp[39m: [35mPOST /api/user/signin 200 554 - 2721.468 ms[39m
+[35m[39m
+2023-07-05 01:27:01:271 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 01:27:01:271 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 01:29:08:298 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 01:29:08:298 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 01:29:09:299 [32minfo[39m: [32mServer closed[39m

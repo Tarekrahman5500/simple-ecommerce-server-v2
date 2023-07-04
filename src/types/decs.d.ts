@@ -2,11 +2,11 @@ import {Document} from "mongoose";
 import {IProduct} from "../model/product";
 
 declare global {
-  namespace Express {
-    interface Request {
-      user?: Record<string,any>
+    namespace Express {
+        interface Request {
+            user?: Record<string, any>
+        }
     }
-  }
 }
 
 export interface IFile {
@@ -27,4 +27,11 @@ export interface IProductResponse {
     products: (Document & Omit<IProduct, '_id'>)[];
     priceRange?: any;
     productsByPrice?: Record<string, Document[]>;
+}
+
+
+export interface IProfilePic {
+
+    public_id: string;
+    url: string;
 }

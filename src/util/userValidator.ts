@@ -3,7 +3,7 @@ import {NextFunction, Request, Response} from "express";
 import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 
-export const validateSignupRequest = [
+export const validateCreateAccountRequest = [
   body('firstName')
     .notEmpty()
     .withMessage('First name is required'),
@@ -18,7 +18,7 @@ export const validateSignupRequest = [
     .withMessage('Password must be at least 6 characters long'),
 ];
 
-export const validateSigninRequest = [
+export const validateLoginRequest = [
   body('email')
     .isEmail()
     .withMessage('Valid email is required'),
