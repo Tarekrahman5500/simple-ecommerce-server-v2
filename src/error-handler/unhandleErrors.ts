@@ -20,6 +20,12 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
         status = 400
     }
 
+  // console.log(err)
+    if (err.status === 401) {
+        message = `you must be logged in`;
+        status = err.status
+    }
+
     if (err.name === "JsonWebTokenError") {
         message = `Json Web Token is invalid, Try again`;
         status = 402
@@ -45,6 +51,7 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
 
     res.status(status).json({
         message: message || error,
+        status: status
     });
 
 }

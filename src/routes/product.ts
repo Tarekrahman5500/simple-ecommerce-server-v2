@@ -1,15 +1,10 @@
 
 import express, {Router} from "express";
-import {createProduct, getProductDetailsById, getProductsBySlug} from "../controller/product";
-import upload from "../util/uploadImage";
+import {getProductDetailsById, getProductsBySlug} from "../controller/product";
 
 
 const router: Router = express.Router();
 
-
-
-router.route('/create')
-    .post(upload.array('picture', 20), createProduct)
 
 router.route(`/slug/:slug`)
     .get( getProductsBySlug)

@@ -332,3 +332,201 @@
 2023-07-05 01:29:08:298 [32minfo[39m: [32mMongoose connected[39m
 2023-07-05 01:29:08:298 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
 2023-07-05 01:29:09:299 [32minfo[39m: [32mServer closed[39m
+2023-07-05 22:52:20:5220 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 22:52:20:5220 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 22:53:28:5328 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 22:53:28:5328 [32minfo[39m: [32mPath:[39m
+2023-07-05 22:53:28:5328 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 22:53:28:5328 [35mhttp[39m: [35mPOST /api/product/create?picture= 500 138 - 8.099 ms[39m
+[35m[39m
+2023-07-05 22:56:15:5615 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 22:56:15:5615 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 22:58:45:5845 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 22:58:45:5845 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 22:59:04:594 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 22:59:04:594 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 22:59:08:598 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 22:59:08:598 [32minfo[39m: [32mPath:[39m
+2023-07-05 22:59:08:598 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 22:59:08:598 [35mhttp[39m: [35mPOST /api/product/create?picture= 500 138 - 10.566 ms[39m
+[35m[39m
+2023-07-05 22:59:31:5931 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 22:59:31:5931 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:00:09:09 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:00:09:09 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:00:11:011 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:00:11:011 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:00:11:011 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:00:11:011 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 46 - 10.929 ms[39m
+[35m[39m
+2023-07-05 23:00:33:033 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:00:33:033 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:00:54:054 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:00:54:054 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:01:11:111 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:01:11:111 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:01:11:111 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:01:11:111 [35mhttp[39m: [35mPOST /api/user/login 401 59 - 19.904 ms[39m
+[35m[39m
+2023-07-05 23:02:17:217 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:02:17:217 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:02:20:220 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:02:20:220 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:02:20:220 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:02:20:220 [35mhttp[39m: [35mPOST /api/user/login 401 59 - 12.988 ms[39m
+[35m[39m
+2023-07-05 23:03:09:39 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:03:09:39 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:03:12:312 [35mhttp[39m: [35mPOST /api/user/login 200 370 - 458.927 ms[39m
+[35m[39m
+2023-07-05 23:03:25:325 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:03:25:325 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:03:25:325 [31merror[39m: [31mError occured: Format is Authorization: Bearer [token][39m
+2023-07-05 23:03:25:325 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 59 - 4.393 ms[39m
+[35m[39m
+2023-07-05 23:03:31:331 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:03:31:331 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:03:31:331 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:03:31:331 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 59 - 4.096 ms[39m
+[35m[39m
+2023-07-05 23:04:13:413 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:04:13:413 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:04:13:413 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:04:13:413 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 59 - 1.961 ms[39m
+[35m[39m
+2023-07-05 23:13:32:1332 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:13:32:1332 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:13:32:1332 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:13:32:1332 [35mhttp[39m: [35mGET /api/product/samsung 401 59 - 1.966 ms[39m
+[35m[39m
+2023-07-05 23:14:08:148 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:14:08:148 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:14:11:1411 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:14:11:1411 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:14:11:1411 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:14:11:1411 [35mhttp[39m: [35mGET /api/product/samsung 401 59 - 9.044 ms[39m
+[35m[39m
+2023-07-05 23:15:27:1527 [35mhttp[39m: [35mPOST /api/user/login 200 348 - 371.881 ms[39m
+[35m[39m
+2023-07-05 23:15:40:1540 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:15:40:1540 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:15:40:1540 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "samsung" (type string) at path "_id" for model "Product"[39m
+2023-07-05 23:15:40:1540 [35mhttp[39m: [35mGET /api/product/samsung 400 59 - 7.657 ms[39m
+[35m[39m
+2023-07-05 23:16:02:162 [35mhttp[39m: [35mGET /api/product/slug/samsung-4a88ikbE2 200 26355 - 1149.965 ms[39m
+[35m[39m
+2023-07-05 23:16:08:168 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:16:08:168 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:16:08:168 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:16:08:168 [35mhttp[39m: [35mGET /api/product/slug/samsung-4a88ikbE2 401 59 - 1.926 ms[39m
+[35m[39m
+2023-07-05 23:17:42:1742 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:17:42:1742 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:19:13:1913 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:19:13:1913 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:21:08:218 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:21:08:218 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:22:18:2218 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:22:18:2218 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:22:40:2240 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:22:40:2240 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:24:32:2432 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:24:32:2432 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:25:47:2547 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:25:47:2547 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:26:03:263 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:26:03:263 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:26:03:263 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:26:03:263 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 48 - 8.252 ms[39m
+[35m[39m
+2023-07-05 23:27:46:2746 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:27:46:2746 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:27:48:2748 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:27:48:2748 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:27:48:2748 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:27:48:2748 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 48 - 7.269 ms[39m
+[35m[39m
+2023-07-05 23:27:55:2755 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:27:55:2755 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:27:55:2755 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:27:55:2755 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 48 - 2.487 ms[39m
+[35m[39m
+2023-07-05 23:28:29:2829 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:28:29:2829 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:28:36:2836 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:28:36:2836 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:28:36:2836 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:28:36:2836 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 48 - 7.360 ms[39m
+[35m[39m
+2023-07-05 23:28:42:2842 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:28:42:2842 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:28:42:2842 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:28:42:2842 [35mhttp[39m: [35mPOST /api/product/create?picture= 401 48 - 3.397 ms[39m
+[35m[39m
+2023-07-05 23:28:47:2847 [35mhttp[39m: [35mPOST /api/user/login 200 348 - 370.909 ms[39m
+[35m[39m
+2023-07-05 23:28:58:2858 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:28:58:2858 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:28:58:2858 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:28:58:2858 [32minfo[39m: [32mError is known.[39m
+2023-07-05 23:28:58:2858 [35mhttp[39m: [35mPOST /api/product/create?picture= 404 90 - 4.083 ms[39m
+[35m[39m
+2023-07-05 23:29:10:2910 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:29:10:2910 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:29:10:2910 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:29:10:2910 [32minfo[39m: [32mError is known.[39m
+2023-07-05 23:29:10:2910 [35mhttp[39m: [35mPOST /api/product/create?picture= 404 90 - 2.482 ms[39m
+[35m[39m
+2023-07-05 23:29:23:2923 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:29:23:2923 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:29:23:2923 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:29:23:2923 [32minfo[39m: [32mError is known.[39m
+2023-07-05 23:29:23:2923 [35mhttp[39m: [35mPOST /api/product/create 404 81 - 2.645 ms[39m
+[35m[39m
+2023-07-05 23:29:32:2932 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:29:32:2932 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:29:32:2932 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:29:32:2932 [32minfo[39m: [32mError is known.[39m
+2023-07-05 23:29:32:2932 [35mhttp[39m: [35mPOST /api/product/create 404 81 - 2.517 ms[39m
+[35m[39m
+2023-07-05 23:31:19:3119 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:31:19:3119 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:31:22:3122 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:31:22:3122 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:31:22:3122 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:31:22:3122 [32minfo[39m: [32mError is known.[39m
+2023-07-05 23:31:22:3122 [35mhttp[39m: [35mPOST /api/product/create 404 81 - 8.465 ms[39m
+[35m[39m
+2023-07-05 23:31:39:3139 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:31:39:3139 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:31:39:3139 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:31:39:3139 [32minfo[39m: [32mError is known.[39m
+2023-07-05 23:31:39:3139 [35mhttp[39m: [35mPOST /api/admin/product/create 404 87 - 3.670 ms[39m
+[35m[39m
+2023-07-05 23:31:59:3159 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:31:59:3159 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:32:02:322 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:32:02:322 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:32:02:322 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:32:02:322 [32minfo[39m: [32mError is known.[39m
+2023-07-05 23:32:02:322 [35mhttp[39m: [35mPOST /api/admin/product/create 404 87 - 10.958 ms[39m
+[35m[39m
+2023-07-05 23:32:25:3225 [35mhttp[39m: [35mGET /api/product/63cc236a153f08cd17d2aec5 200 609 - 303.555 ms[39m
+[35m[39m
+2023-07-05 23:33:06:336 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:33:06:336 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:33:16:3316 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:33:16:3316 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:33:16:3316 [31merror[39m: [31mError occured: slugify: string argument expected[39m
+2023-07-05 23:33:16:3316 [35mhttp[39m: [35mPOST /api/admin/product/create 500 27 - 2905.633 ms[39m
+[35m[39m
+2023-07-05 23:33:44:3344 [32minfo[39m: [32mMongoose connected[39m
+2023-07-05 23:33:44:3344 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-05 23:33:57:3357 [35mhttp[39m: [35mPOST /api/user/login 200 342 - 379.430 ms[39m
+[35m[39m
+2023-07-05 23:34:08:348 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-05 23:34:08:348 [32minfo[39m: [32mPath:[39m
+2023-07-05 23:34:08:348 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:34:08:348 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 7.399 ms[39m
+[35m[39m
+2023-07-05 23:34:15:3415 [32minfo[39m: [32mServer closed[39m

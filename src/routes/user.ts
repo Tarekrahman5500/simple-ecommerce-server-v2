@@ -7,7 +7,6 @@ import {createAccount, login, logOut, verifyLogin} from "../controller/auth";
 const router: Router = express.Router();
 
 //const commonMiddleware = [validateSigninRequest,isRequestUserValidated]
-
 router.route('/signin')
     .post(upload.single('picture'), validateCreateAccountRequest, isRequestUserValidated, createAccount)
 

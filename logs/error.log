@@ -22,3 +22,29 @@
 2023-07-04 01:12:36:1236 [31merror[39m: [31moption expires is invalid[39m
 2023-07-04 01:17:21:1721 [31merror[39m: [31mError occured: NotFound[39m
 2023-07-05 01:05:37:537 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 22:53:28:5328 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 22:59:08:598 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:00:11:011 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:01:11:111 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:02:20:220 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:03:25:325 [31merror[39m: [31mError occured: Format is Authorization: Bearer [token][39m
+2023-07-05 23:03:31:331 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:04:13:413 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:13:32:1332 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:14:11:1411 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:15:40:1540 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "samsung" (type string) at path "_id" for model "Product"[39m
+2023-07-05 23:16:08:168 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-05 23:26:03:263 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:27:48:2748 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:27:55:2755 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:28:36:2836 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:28:42:2842 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-05 23:28:58:2858 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:29:10:2910 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:29:23:2923 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:29:32:2932 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:31:22:3122 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:31:39:3139 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:32:02:322 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-05 23:33:16:3316 [31merror[39m: [31mError occured: slugify: string argument expected[39m
+2023-07-05 23:34:08:348 [31merror[39m: [31mError occured: The token has been revoked.[39m
