@@ -50,7 +50,7 @@ export const createAccount = catchAsyncErrors(async (req, res, next) => {
 });
 
 /// login verify process
-export const verifyLogin = catchAsyncErrors(async (req, res) => {
+export const createToken = catchAsyncErrors(async (req, res) => {
 
     const {_id, role, fullName, firstName, lastName, email} = req.user as IUser;
     const token = generateJwtToken(_id, role);
@@ -65,7 +65,7 @@ export const verifyLogin = catchAsyncErrors(async (req, res) => {
 });
 
 ///  user login request
-export const login = catchAsyncErrors(async (req, res, next) => {
+export const verifyLoginRequest = catchAsyncErrors(async (req, res, next) => {
     const {email, password} = req.body;
     const user = await checkEmail(email);
 

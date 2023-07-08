@@ -1,7 +1,7 @@
 import express, {Router} from "express";
-import upload from "../util/uploadImage";
-import {isRequestUserValidated, validateCreateAccountRequest, validateLoginRequest} from "../util/userValidator";
-import {createAccount, login, logOut, verifyLogin} from "../controller/auth";
+import upload from "../../util/uploadImage";
+import {isRequestUserValidated, validateCreateAccountRequest, validateLoginRequest} from "../../util/userValidator";
+import {createAccount, createToken, logOut, verifyLoginRequest,} from "../../controller/auth";
 
 
 const router: Router = express.Router();
@@ -11,7 +11,7 @@ router.route('/signin')
     .post(upload.single('picture'), validateCreateAccountRequest, isRequestUserValidated, createAccount)
 
 router.route('/login')
-    .post(validateLoginRequest, isRequestUserValidated, login, verifyLogin)
+    .post(validateLoginRequest, isRequestUserValidated, verifyLoginRequest, createToken)
 
 router.route('/logout').post(logOut)
 

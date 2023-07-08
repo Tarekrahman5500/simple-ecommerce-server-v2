@@ -7,7 +7,7 @@ import unHandleErrors from "./unhandleErrors";
 
 
 
-export const errorHandler = (error: any, req: Request, res: Response, next: NextFunction) => {
+export const errorHandler = (error: Error, req: Request, res: Response, next: NextFunction) => {
     Logger.debug('Error handling middleware called.');
     Logger.info('Path:', req.path);
     const err: Error = error 

@@ -7,7 +7,9 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
     let message: string
     let status: number
     status = 500
-    message = "";
+
+    const error: Error = err
+    message = (error.toString()).substr(error.toString().indexOf(" ") + 1)
   //  console.log(err)
     if (err.name === "CastError") {
         message = `Resource not found. Invalid: ${err.path}`;
@@ -22,7 +24,7 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
 
   // console.log(err)
     if (err.status === 401) {
-        message = `you must be logged in`;
+        message = (error.toString()).substr(error.toString().indexOf(" ") + 1)
         status = err.status
     }
 
@@ -46,11 +48,11 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
     /*
         req.customData = 'Hello from middleware 1';
         next();*/
-    const error: Error = err
-    //Logger.error(error)
+
+  //  Logger.error(error)
 
     res.status(status).json({
-        message: message || error,
+        message: message ,
         status: status
     });
 

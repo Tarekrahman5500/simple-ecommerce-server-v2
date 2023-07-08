@@ -530,3 +530,320 @@
 2023-07-05 23:34:08:348 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 7.399 ms[39m
 [35m[39m
 2023-07-05 23:34:15:3415 [32minfo[39m: [32mServer closed[39m
+2023-07-08 22:45:01:451 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 22:45:01:451 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 22:46:10:4610 [35mhttp[39m: [35mPOST /api/user/login 200 346 - 380.170 ms[39m
+[35m[39m
+2023-07-08 22:46:22:4622 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 22:46:22:4622 [32minfo[39m: [32mPath:[39m
+2023-07-08 22:46:22:4622 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 22:46:22:4622 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 6.729 ms[39m
+[35m[39m
+2023-07-08 22:47:15:4715 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 22:47:15:4715 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 22:47:17:4717 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 22:47:17:4717 [32minfo[39m: [32mPath:[39m
+2023-07-08 22:47:17:4717 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 22:47:17:4717 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 11.750 ms[39m
+[35m[39m
+2023-07-08 22:51:13:5113 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 22:51:13:5113 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 22:51:14:5114 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 22:51:14:5114 [32minfo[39m: [32mPath:[39m
+2023-07-08 22:51:14:5114 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-08 22:51:14:5114 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 5.743 ms[39m
+[35m[39m
+2023-07-08 22:59:59:5959 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 22:59:59:5959 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:00:06:06 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:00:06:06 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:00:06:06 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-08 23:00:06:06 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 6.803 ms[39m
+[35m[39m
+2023-07-08 23:00:18:018 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:00:18:018 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:00:18:018 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:00:18:018 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 4.940 ms[39m
+[35m[39m
+2023-07-08 23:01:32:132 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:01:32:132 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:01:37:137 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:01:37:137 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:01:37:137 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:01:37:137 [31merror[39m: [31mThe token has been revoked.[39m
+2023-07-08 23:01:37:137 [35mhttp[39m: [35mPOST /api/admin/product/create 401 48 - 8.603 ms[39m
+[35m[39m
+2023-07-08 23:03:26:326 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:03:26:326 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:03:27:327 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:03:27:327 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:03:27:327 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:03:27:327 [35mhttp[39m: [35mPOST /api/admin/product/create 401 73 - 8.001 ms[39m
+[35m[39m
+2023-07-08 23:03:49:349 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:03:49:349 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:03:49:349 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-08 23:03:49:349 [35mhttp[39m: [35mPOST /api/admin/product/create 401 78 - 3.572 ms[39m
+[35m[39m
+2023-07-08 23:07:24:724 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:07:24:724 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:07:25:725 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:07:25:725 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:07:25:725 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:07:25:725 [35mhttp[39m: [35mPOST /api/admin/product/create 401 73 - 8.258 ms[39m
+[35m[39m
+2023-07-08 23:09:26:926 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:09:26:926 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:09:43:943 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:09:43:943 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:09:43:943 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:09:43:943 [35mhttp[39m: [35mPOST /api/admin/product/create 401 35 - 7.357 ms[39m
+[35m[39m
+2023-07-08 23:11:27:1127 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:11:27:1127 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:11:40:1140 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:11:40:1140 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:11:40:1140 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:11:40:1140 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 7.742 ms[39m
+[35m[39m
+2023-07-08 23:11:46:1146 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:11:46:1146 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:11:46:1146 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-08 23:11:46:1146 [35mhttp[39m: [35mPOST /api/admin/product/create 401 59 - 3.578 ms[39m
+[35m[39m
+2023-07-08 23:13:04:134 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:13:04:134 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:15:37:1537 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:15:37:1537 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:15:40:1540 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:15:40:1540 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:15:40:1540 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:15:40:1540 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 15.338 ms[39m
+[35m[39m
+2023-07-08 23:22:26:2226 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:22:26:2226 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:23:10:2310 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:23:10:2310 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:23:10:2310 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:23:10:2310 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 15.716 ms[39m
+[35m[39m
+2023-07-08 23:26:34:2634 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:26:34:2634 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:26:52:2652 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:26:52:2652 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:26:52:2652 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:26:52:2652 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 15.595 ms[39m
+[35m[39m
+2023-07-08 23:28:20:2820 [32minfo[39m: [32mMongoose connected[39m
+2023-07-08 23:28:20:2820 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-08 23:28:23:2823 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-08 23:28:23:2823 [32minfo[39m: [32mPath:[39m
+2023-07-08 23:28:23:2823 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-08 23:28:23:2823 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 294.073 ms[39m
+[35m[39m
+2023-07-09 00:48:36:4836 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 00:48:36:4836 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 00:48:40:4840 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 00:48:40:4840 [32minfo[39m: [32mPath:[39m
+2023-07-09 00:48:40:4840 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-09 00:48:40:4840 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 301.253 ms[39m
+[35m[39m
+2023-07-09 00:52:51:5251 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 00:52:51:5251 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 00:53:01:531 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 00:53:01:531 [32minfo[39m: [32mPath:[39m
+2023-07-09 00:53:01:531 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-09 00:53:01:531 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 304.322 ms[39m
+[35m[39m
+2023-07-09 00:53:29:5329 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 00:53:29:5329 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 00:57:22:5722 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 00:57:22:5722 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 00:57:28:5728 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 00:57:28:5728 [32minfo[39m: [32mPath:[39m
+2023-07-09 00:57:28:5728 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-09 00:57:28:5728 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 306.726 ms[39m
+[35m[39m
+2023-07-09 01:01:53:153 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:01:53:153 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:05:04:54 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:05:04:54 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:09:01:91 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:09:01:91 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:09:03:93 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 01:09:03:93 [32minfo[39m: [32mPath:[39m
+2023-07-09 01:09:03:93 [31merror[39m: [31mError occured: The token has been revoked.[39m
+2023-07-09 01:09:03:93 [35mhttp[39m: [35mPOST /api/admin/product/create 401 54 - 300.370 ms[39m
+[35m[39m
+2023-07-09 01:10:07:107 [35mhttp[39m: [35mPOST /api/user/login 200 348 - 373.518 ms[39m
+[35m[39m
+2023-07-09 01:10:21:1021 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 01:10:21:1021 [32minfo[39m: [32mPath:[39m
+2023-07-09 01:10:21:1021 [31merror[39m: [31mError occured: slugify: string argument expected[39m
+2023-07-09 01:10:21:1021 [35mhttp[39m: [35mPOST /api/admin/product/create 500 27 - 3063.276 ms[39m
+[35m[39m
+2023-07-09 01:11:10:1110 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:11:10:1110 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:12:36:1236 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:12:36:1236 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:12:40:1240 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 01:12:40:1240 [32minfo[39m: [32mPath:[39m
+2023-07-09 01:12:40:1240 [31merror[39m: [31mError occured: slugify: string argument expected[39m
+2023-07-09 01:12:40:1240 [35mhttp[39m: [35mPOST /api/admin/product/create 500 27 - 3211.285 ms[39m
+[35m[39m
+2023-07-09 01:14:24:1424 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:14:24:1424 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:14:30:1430 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 01:14:30:1430 [32minfo[39m: [32mPath:[39m
+2023-07-09 01:14:30:1430 [31merror[39m: [31mError occured: slugify: string argument expected[39m
+2023-07-09 01:14:30:1430 [35mhttp[39m: [35mPOST /api/admin/product/create 500 60 - 3090.428 ms[39m
+[35m[39m
+2023-07-09 01:14:58:1458 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:14:58:1458 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:15:09:159 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 01:15:09:159 [32minfo[39m: [32mPath:[39m
+2023-07-09 01:15:09:159 [31merror[39m: [31mError occured: slugify: string argument expected[39m
+2023-07-09 01:15:09:159 [35mhttp[39m: [35mPOST /api/admin/product/create 500 67 - 2645.963 ms[39m
+[35m[39m
+2023-07-09 01:30:47:3047 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:30:47:3047 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:31:12:3112 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:31:12:3112 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:36:30:3630 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:36:30:3630 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:54:45:5445 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:54:45:5445 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 01:56:46:5646 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 01:56:46:5646 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:00:07:07 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:00:07:07 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:02:44:244 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:02:44:244 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:04:41:441 [35mhttp[39m: [35mPOST /api/user/login 200 351 - 466.233 ms[39m
+[35m[39m
+2023-07-09 02:05:01:51 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:05:01:51 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:05:01:51 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-09 02:05:01:51 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:05:01:51 [35mhttp[39m: [35mPOST /api/user/private/update 404 86 - 330.469 ms[39m
+[35m[39m
+2023-07-09 02:06:10:610 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:06:10:610 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:06:10:610 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:06:10:610 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:06:10:610 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 75 - 305.357 ms[39m
+[35m[39m
+2023-07-09 02:07:21:721 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:07:21:721 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:07:21:721 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:07:21:721 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:07:21:721 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 75 - 305.577 ms[39m
+[35m[39m
+2023-07-09 02:08:04:84 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:08:04:84 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:08:07:87 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:08:07:87 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:08:07:87 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:08:07:87 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:08:07:87 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 75 - 353.472 ms[39m
+[35m[39m
+2023-07-09 02:11:33:1133 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:11:33:1133 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:11:33:1133 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:11:33:1133 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:11:33:1133 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 75 - 315.707 ms[39m
+[35m[39m
+2023-07-09 02:11:59:1159 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:11:59:1159 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:11:59:1159 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:11:59:1159 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:11:59:1159 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 75 - 305.194 ms[39m
+[35m[39m
+2023-07-09 02:15:41:1541 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:15:41:1541 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:15:49:1549 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:15:49:1549 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:15:49:1549 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:15:49:1549 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:15:49:1549 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 75 - 2534.380 ms[39m
+[35m[39m
+2023-07-09 02:16:38:1638 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:16:38:1638 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:16:38:1638 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:16:38:1638 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:16:38:1638 [35mhttp[39m: [35mPOST /api/user/signin 401 96 - 23.673 ms[39m
+[35m[39m
+2023-07-09 02:16:53:1653 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:16:53:1653 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:16:53:1653 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:16:53:1653 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:16:53:1653 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 75 - 314.221 ms[39m
+[35m[39m
+2023-07-09 02:19:12:1912 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:19:12:1912 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:19:14:1914 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:19:14:1914 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:19:14:1914 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-09 02:19:14:1914 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:19:14:1914 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 401 76 - 324.141 ms[39m
+[35m[39m
+2023-07-09 02:20:19:2019 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:20:19:2019 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:20:47:2047 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:20:47:2047 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:21:04:214 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:21:04:214 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:21:10:2110 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:21:10:2110 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:21:10:2110 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'length')[39m
+2023-07-09 02:21:10:2110 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 500 81 - 362.151 ms[39m
+[35m[39m
+2023-07-09 02:22:12:2212 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:22:12:2212 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:22:20:2220 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 200 399 - 609.179 ms[39m
+[35m[39m
+2023-07-09 02:22:47:2247 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:22:47:2247 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:25:10:2510 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:25:10:2510 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:28:27:2827 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:28:27:2827 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:29:17:2917 [35mhttp[39m: [35mPOST /api/user/login 200 345 - 372.452 ms[39m
+[35m[39m
+2023-07-09 02:31:15:3115 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:31:15:3115 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:32:39:3239 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:32:39:3239 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:34:09:349 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:34:09:349 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:34:09:349 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-09 02:34:09:349 [32minfo[39m: [32mError is known.[39m
+2023-07-09 02:34:09:349 [35mhttp[39m: [35mPATCH /api/user/private/update/63e91fc2af1e405ad617f218 404 66 - 304.873 ms[39m
+[35m[39m
+2023-07-09 02:34:36:3436 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:34:36:3436 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:34:36:3436 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: Cannot create field 'public_id' in element {profilePicture: ""}[39m
+2023-07-09 02:34:36:3436 [35mhttp[39m: [35mPATCH /api/user/private/update/63e91fc2af1e405ad617f218 500 149 - 2222.273 ms[39m
+[35m[39m
+2023-07-09 02:39:54:3954 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:39:54:3954 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:39:59:3959 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:39:59:3959 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:39:59:3959 [31merror[39m: [31mError occured: Cannot create field 'public_id' in element {profilePicture: ""}[39m
+2023-07-09 02:39:59:3959 [35mhttp[39m: [35mPATCH /api/user/private/update/63e91fc2af1e405ad617f218 500 92 - 2134.646 ms[39m
+[35m[39m
+2023-07-09 02:40:29:4029 [35mhttp[39m: [35mPATCH /api/user/private/update/63e91fc2af1e405ad617f218 200 150 - 2260.102 ms[39m
+[35m[39m
+2023-07-09 02:43:17:4317 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:43:17:4317 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:43:32:4332 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 02:43:32:4332 [32minfo[39m: [32mPath:[39m
+2023-07-09 02:43:32:4332 [31merror[39m: [31mError occured: File too large[39m
+2023-07-09 02:43:32:4332 [35mhttp[39m: [35mPATCH /api/user/private/update/63e91fc2af1e405ad617f218 500 41 - 334.482 ms[39m
+[35m[39m
+2023-07-09 02:43:44:4344 [35mhttp[39m: [35mPATCH /api/user/private/update/63e91fc2af1e405ad617f218 200 534 - 3916.251 ms[39m
+[35m[39m
+2023-07-09 02:44:56:4456 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:44:56:4456 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:46:27:4627 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 02:46:27:4627 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m

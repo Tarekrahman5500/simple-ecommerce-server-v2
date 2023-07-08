@@ -76,7 +76,7 @@ export const getProductDetailsById: RequestHandler = catchAsyncErrors(async (req
 export const createProduct = catchAsyncErrors(async (req, res, next) => {
 
     const {name, price, description, category, quantity} = req.body;
-    const productPictures: any = [];
+    const productPictures = [];
     const files = req.files as IFile[]
     if (!files) return next?.(new ErrorException(ErrorCode.NotFound, `image must be upload`))
 
@@ -108,7 +108,7 @@ export const createProduct = catchAsyncErrors(async (req, res, next) => {
 
       product = await product.save();
 
-    return res.status(201).json(req.body.productPictures);
+    return res.status(201).json(productPictures);
 
 
 });
