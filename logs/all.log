@@ -847,3 +847,117 @@
 2023-07-09 02:44:56:4456 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
 2023-07-09 02:46:27:4627 [32minfo[39m: [32mMongoose connected[39m
 2023-07-09 02:46:27:4627 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 02:50:47:5047 [32minfo[39m: [32mServer closed[39m
+2023-07-09 23:01:43:143 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:01:43:143 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:01:50:150 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 200 51 - 300.419 ms[39m
+[35m[39m
+2023-07-09 23:02:14:214 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:02:14:214 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:02:24:224 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:02:24:224 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:02:26:226 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 23:02:26:226 [32minfo[39m: [32mPath:[39m
+2023-07-09 23:02:26:226 [31merror[39m: [31mError occured: Converting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'Socket'[39m
+[31m    |     property 'parser' -> object with constructor 'HTTPParser'[39m
+[31m    --- property 'socket' closes the circle[39m
+2023-07-09 23:02:26:226 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 500 232 - 357.330 ms[39m
+[35m[39m
+2023-07-09 23:02:50:250 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:02:50:250 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:02:57:257 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 200 51 - 316.832 ms[39m
+[35m[39m
+2023-07-09 23:03:56:356 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:03:56:356 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:04:09:49 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 200 101 - 301.139 ms[39m
+[35m[39m
+2023-07-09 23:08:20:820 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:08:20:820 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:08:33:833 [35mhttp[39m: [35mPOST /api/user/private/update/63cd80a252f2fa087fa21d35 200 101 - 300.356 ms[39m
+[35m[39m
+2023-07-09 23:09:25:925 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:09:25:925 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:10:20:1020 [35mhttp[39m: [35mPOST /api/user/private/update/63cd898d1828e871fde50ddb 200 101 - 609.334 ms[39m
+[35m[39m
+2023-07-09 23:13:12:1312 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:13:12:1312 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:14:11:1411 [35mhttp[39m: [35mPOST /api/user/private/update/63cd898d1828e871fde50ddb 200 396 - 641.231 ms[39m
+[35m[39m
+2023-07-09 23:14:55:1455 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:14:55:1455 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:15:01:151 [35mhttp[39m: [35mPOST /api/user/private/update 200 396 - 593.583 ms[39m
+[35m[39m
+2023-07-09 23:17:04:174 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:17:04:174 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:20:56:2056 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:20:56:2056 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:21:02:212 [35mhttp[39m: [35mPATCH /api/user/private/update 200 151 - 590.188 ms[39m
+[35m[39m
+2023-07-09 23:30:16:3016 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:30:16:3016 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:30:27:3027 [35mhttp[39m: [35mPATCH /api/user/private/update 200 534 - 5348.695 ms[39m
+[35m[39m
+2023-07-09 23:30:57:3057 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:30:57:3057 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:32:12:3212 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:32:12:3212 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:32:21:3221 [35mhttp[39m: [35mPATCH /api/user/private/update 200 534 - 3819.999 ms[39m
+[35m[39m
+2023-07-09 23:32:37:3237 [35mhttp[39m: [35mPATCH /api/user/private/update 200 534 - 3722.408 ms[39m
+[35m[39m
+2023-07-09 23:33:19:3319 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:33:19:3319 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:33:25:3325 [35mhttp[39m: [35mPATCH /api/user/private/update 200 534 - 3788.377 ms[39m
+[35m[39m
+2023-07-09 23:33:30:3330 [35mhttp[39m: [35mPOST /api/user/private/update 200 396 - 603.882 ms[39m
+[35m[39m
+2023-07-09 23:33:57:3357 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 23:33:57:3357 [32minfo[39m: [32mPath:[39m
+2023-07-09 23:33:57:3357 [31merror[39m: [31mError occured: AsyncError[39m
+2023-07-09 23:33:57:3357 [32minfo[39m: [32mError is known.[39m
+2023-07-09 23:33:57:3357 [35mhttp[39m: [35mPATCH /api/user/private/update 400 74 - 3124.789 ms[39m
+[35m[39m
+2023-07-09 23:34:47:3447 [35mhttp[39m: [35mPOST /api/user/private/update 200 376 - 778.192 ms[39m
+[35m[39m
+2023-07-09 23:34:54:3454 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 23:34:54:3454 [32minfo[39m: [32mPath:[39m
+2023-07-09 23:34:54:3454 [31merror[39m: [31mError occured: AsyncError[39m
+2023-07-09 23:34:54:3454 [32minfo[39m: [32mError is known.[39m
+2023-07-09 23:34:54:3454 [35mhttp[39m: [35mPATCH /api/user/private/update 400 74 - 4048.790 ms[39m
+[35m[39m
+2023-07-09 23:35:57:3557 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:35:57:3557 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:36:20:3620 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:36:20:3620 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:36:29:3629 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 23:36:29:3629 [32minfo[39m: [32mPath:[39m
+2023-07-09 23:36:29:3629 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-09 23:36:29:3629 [32minfo[39m: [32mError is known.[39m
+2023-07-09 23:36:29:3629 [35mhttp[39m: [35mPATCH /api/user/private/update 404 86 - 4826.600 ms[39m
+[35m[39m
+2023-07-09 23:36:48:3648 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-09 23:36:48:3648 [32minfo[39m: [32mPath:[39m
+2023-07-09 23:36:48:3648 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-09 23:36:48:3648 [32minfo[39m: [32mError is known.[39m
+2023-07-09 23:36:48:3648 [35mhttp[39m: [35mPATCH /api/user/private/update 404 86 - 2850.268 ms[39m
+[35m[39m
+2023-07-09 23:37:01:371 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:37:01:371 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:37:38:3738 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:37:38:3738 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:37:47:3747 [35mhttp[39m: [35mPATCH /api/user/private/update 200 534 - 6378.327 ms[39m
+[35m[39m
+2023-07-09 23:44:28:4428 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:44:28:4428 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:52:06:526 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:52:06:526 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:54:21:5421 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:54:21:5421 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:54:43:5443 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:54:43:5443 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:55:21:5521 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:55:21:5521 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:55:33:5533 [32minfo[39m: [32mMongoose connected[39m
+2023-07-09 23:55:33:5533 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-09 23:57:24:5724 [32minfo[39m: [32mServer closed[39m

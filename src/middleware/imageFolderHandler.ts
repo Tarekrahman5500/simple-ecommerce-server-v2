@@ -4,7 +4,7 @@ import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import fs from "fs";
 
- export const uploadFileToCloudinary = async (folder: string, filePath: string, next: NextFunction | undefined): Promise<any> => {
+ export const uploadImageToCloudinary = async (folder: string, filePath: string, next: NextFunction | undefined): Promise<any> => {
   try {
     const result = await cloudinary.uploader.upload(filePath, {
       folder,
@@ -16,6 +16,17 @@ import fs from "fs";
       next?.(new ErrorException(ErrorCode.AsyncError, 'failed to upload image'))
   }
 };
+ // function that remove image from cloudinary
+
+export const removeImageFromCloudinary = async (publicId: string, next: NextFunction | undefined): Promise<any> => {
+    try {
+        return  await cloudinary.uploader.destroy(publicId)
+
+
+    } catch (error) {
+         next?.(new ErrorException(ErrorCode.AsyncError, 'failed to remove old image'))
+    }
+}
 
  // clean temp image folder
 

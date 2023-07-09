@@ -7,7 +7,7 @@ import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import catchAsyncErrors from "../error-handler/catchAsyncError";
 import {IFile, IProductResponse} from "../types/decs";
-import {deleteFolderRecursive, uploadFileToCloudinary} from "../middleware/imageupload";
+import {deleteFolderRecursive, uploadImageToCloudinary} from "../middleware/imageFolderHandler";
 
 /**
  * Get products by slug
@@ -82,7 +82,7 @@ export const createProduct = catchAsyncErrors(async (req, res, next) => {
 
     for (let i = 0; i < files.length; i++) {
 
-        const result = await uploadFileToCloudinary("products", files[i].path, next)
+        const result = await uploadImageToCloudinary("products", files[i].path, next)
         productPictures.push({
             public_id: result.public_id,
             url: result.secure_url,

@@ -7,7 +7,7 @@ import env from "../util/validateEnv";
 import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import {IFile, IProfilePic} from "../types/decs";
-import {deleteFolderRecursive, uploadFileToCloudinary} from "../middleware/imageupload";
+import {deleteFolderRecursive, uploadImageToCloudinary} from "../middleware/imageFolderHandler";
 
 export const createAccount = catchAsyncErrors(async (req, res, next) => {
 
@@ -22,7 +22,7 @@ export const createAccount = catchAsyncErrors(async (req, res, next) => {
     // console.log(file);
     if (!file) return next?.(new ErrorException(ErrorCode.NotFound, `image must be upload`))
 
-    const result = await uploadFileToCloudinary("user", file.path, next)
+    const result = await uploadImageToCloudinary("user", file.path, next)
 
     const profilePicture: IProfilePic = {public_id: "", url: ""}
 

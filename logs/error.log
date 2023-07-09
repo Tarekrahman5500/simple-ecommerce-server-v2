@@ -88,3 +88,11 @@
 2023-07-09 02:34:36:3436 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: Cannot create field 'public_id' in element {profilePicture: ""}[39m
 2023-07-09 02:39:59:3959 [31merror[39m: [31mError occured: Cannot create field 'public_id' in element {profilePicture: ""}[39m
 2023-07-09 02:43:32:4332 [31merror[39m: [31mError occured: File too large[39m
+2023-07-09 23:02:26:226 [31merror[39m: [31mError occured: Converting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'Socket'[39m
+[31m    |     property 'parser' -> object with constructor 'HTTPParser'[39m
+[31m    --- property 'socket' closes the circle[39m
+2023-07-09 23:33:57:3357 [31merror[39m: [31mError occured: AsyncError[39m
+2023-07-09 23:34:54:3454 [31merror[39m: [31mError occured: AsyncError[39m
+2023-07-09 23:36:29:3629 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-09 23:36:48:3648 [31merror[39m: [31mError occured: NotFound[39m
