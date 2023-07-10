@@ -1,8 +1,12 @@
 
 import express, {Router} from "express";
 import UserAuthJwt from "../../middleware/VerifyAccessJwt";
-import {isRequestUserValidated, validateUpdateUserRequest} from "../../util/userValidator";
-import {deleteUser, getUser, updateProfilePicture, updateUser} from "../../controller/updateUser";
+import {
+    isRequestUserValidated,
+    validateUpdatePasswordRequest,
+    validateUpdateUserRequest
+} from "../../util/Validator";
+import {changePassword, deleteUser, getUser, updateProfilePicture, updateUser} from "../../controller/updateUser";
 import upload from "../../util/uploadImage";
 
 
@@ -14,6 +18,7 @@ router.route('/update')
     .post(upload.single('picture'), validateUpdateUserRequest, isRequestUserValidated, updateUser)
     .patch(upload.single('picture'), updateProfilePicture)
     .delete(deleteUser)
+    .put( validateUpdatePasswordRequest,  isRequestUserValidated, changePassword)
 
 router.route('/about').get(getUser)
 

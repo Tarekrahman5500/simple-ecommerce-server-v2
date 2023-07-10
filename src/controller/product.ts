@@ -1,13 +1,18 @@
 import {RequestHandler} from 'express';
-import {Document} from 'mongoose';
+import {Document, Types, UpdateQuery} from 'mongoose';
 import slugify from 'slugify';
-import Product from "../model/product";
+import ProductModel, {IProduct} from "../model/product";
 import Category from "../model/category";
 import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import catchAsyncErrors from "../error-handler/catchAsyncError";
-import {IFile, IProductResponse} from "../types/decs";
-import {deleteFolderRecursive, uploadImageToCloudinary} from "../middleware/imageFolderHandler";
+import {Authentication, IFile, IImage, IProductImage, IProductResponse} from "../types/decs";
+import {
+    deleteFolderRecursive,
+    removeImageFromCloudinary,
+    uploadImageToCloudinary
+} from "../middleware/imageFolderHandler";
+import UserModel from "../model/user";
 
 /**
  * Get products by slug
@@ -24,10 +29,10 @@ export const getProductsBySlug: RequestHandler = catchAsyncErrors(async (req, re
     const {slug} = req.params;
     const category = await Category.findOne({slug}).select('_id type');
     if (!category) return next?.(new ErrorException(ErrorCode.NotFound, `${slug} category not found`));
-    const products = await Product.find({category: category._id});
+    const products = await ProductModel.find({category: category._id});
 
 
-    const priceRanges = await Product.aggregate([
+    const priceRanges = await ProductModel.aggregate([
         {$match: {category: category._id}},
         {
             $group: {
@@ -67,7 +72,7 @@ export const getProductsBySlug: RequestHandler = catchAsyncErrors(async (req, re
 export const getProductDetailsById: RequestHandler = catchAsyncErrors(async (req, res) => {
 
     const {productId} = req.params;
-    const product = await Product.findOne({_id: productId});
+    const product = await ProductModel.findOne({_id: productId});
     return res.status(200).json({product});
 
 });
@@ -93,22 +98,24 @@ export const createProduct = catchAsyncErrors(async (req, res, next) => {
 
     req.body.productPictures = productPictures
     deleteFolderRecursive('uploads')
+    /// get current user id
+    const auth = req.auth as Authentication
 
 
-      let product = new Product({
-          name: name,
-          slug: slugify(name),
-          price,
-          quantity,
-          description,
-          productPictures,
-          category,
-          createdBy: req.user?._id,
-      });
+    let product = new ProductModel({
+        name: name,
+        slug: slugify(name),
+        price,
+        quantity,
+        description,
+        productPictures,
+        category,
+        createdBy: auth._id,
+    });
 
-      product = await product.save();
+    product = await product.save();
 
-    return res.status(201).json(productPictures);
+    return res.status(201).json(product);
 
 
 });
@@ -119,9 +126,53 @@ export const createProduct = catchAsyncErrors(async (req, res, next) => {
 export const updateProduct = catchAsyncErrors(async (req, res, next) => {
 
     const {productId} = req.params;
-    const product = await Product.findOne({_id: productId});
+    // const product = await ProductModel.findById(productId) as IProduct
+    const {name, price, quantity, description, category} = req.body;
 
+    // Create an update query with the provided fields
+    const updateQuery: UpdateQuery<IProduct> = {
+        $set: {name, price, quantity, description, category},
+    };
 
+    // Update the product using the update query
+    const product = await ProductModel.findByIdAndUpdate({_id: productId}, updateQuery);
+
+    return res.status(200).json({product, message: 'Product updated successfully'});
+})
+
+// update product image
+
+export const updateProductImage = catchAsyncErrors(async (req, res, next) => {
+    const productId = req.params.productId;
+    const imageId = req.query.imageId as string
+    // Convert the imageId to a MongoDB ObjectId
+    //const imageObjectId = new Types.ObjectId(imageId);
+    const file = req.file as IFile;
+   if (!file) return next?.(new ErrorException(ErrorCode.NotFound, `image must be upload`))
+    const result = await uploadImageToCloudinary('products', file.path, next);
+
+    //  console.log(imageId)
+    const productImageId = await ProductModel.findById({_id: productId},
+        {productPictures: {$elemMatch: {_id: imageId}}}) as IProductImage
+
+    // remove old image
+    // if image is present
+   // console.log(productImageId)
+        //  const remove =
+  //  console.log(remove)
+    productImageId &&  await removeImageFromCloudinary(productImageId.productPictures[0].public_id, next)
+
+    // Update the product picture based on the imageId using a MongoDB query
+
+    const product = await ProductModel.findByIdAndUpdate(
+        productId,
+        {$set: {'productPictures.$[elem].public_id': result.public_id, 'productPictures.$[elem].url': result.url}},
+        {new: true, arrayFilters: [{'elem._id': imageId}]}
+    );
+    // Delete the temporary file from the local server
+    deleteFolderRecursive('uploads');
+
+    return res.status(200).json({product: product, message: 'Product image updated successfully'});
 })
 
 

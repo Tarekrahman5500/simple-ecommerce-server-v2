@@ -1,6 +1,6 @@
 import express, {Router} from "express";
 import upload from "../../util/uploadImage";
-import {isRequestUserValidated, validateCreateAccountRequest, validateLoginRequest} from "../../util/userValidator";
+import {isRequestUserValidated, validateCreateAccountRequest, validateLoginRequest} from "../../util/Validator";
 import {createAccount, createToken, logOut, verifyLoginRequest,} from "../../controller/auth";
 
 

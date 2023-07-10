@@ -8,7 +8,7 @@ import fs from "fs";
   try {
     const result = await cloudinary.uploader.upload(filePath, {
       folder,
-      resource_type: 'auto',
+      resource_type: 'image',
     });
     return result;
   } catch (error) {
@@ -20,7 +20,9 @@ import fs from "fs";
 
 export const removeImageFromCloudinary = async (publicId: string, next: NextFunction | undefined): Promise<any> => {
     try {
-        return  await cloudinary.uploader.destroy(publicId)
+        return  await cloudinary.uploader.destroy(publicId, {
+            invalidate: true, resource_type: "image"
+        })
 
 
     } catch (error) {

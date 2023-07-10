@@ -65,7 +65,7 @@ export interface Authentication {
     exp: number;
 }
 
-interface IUserImage {
+interface IImage {
     profilePicture: {
         public_id: string;
     };
@@ -84,6 +84,16 @@ interface IUserImage {
         public_id: string;
         url: string;
     };
+}
+
+
+ export interface IProductImage {
+  _id: string;
+  productPictures: {
+    public_id: string;
+    url: string;
+    _id: string;
+  }[];
 }
 
 

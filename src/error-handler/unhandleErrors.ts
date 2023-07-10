@@ -23,10 +23,10 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
     }
 
   // console.log(err)
-    if (err.status === 401) {
+   /* if (err.status === 401) {
         message = (error.toString()).substr(error.toString().indexOf(" ") + 1)
         status = err.status
-    }
+    }*/
 
     if (err.name === "JsonWebTokenError") {
         message = `Json Web Token is invalid, Try again`;

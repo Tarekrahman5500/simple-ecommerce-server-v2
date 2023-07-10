@@ -961,3 +961,244 @@
 2023-07-09 23:55:33:5533 [32minfo[39m: [32mMongoose connected[39m
 2023-07-09 23:55:33:5533 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
 2023-07-09 23:57:24:5724 [32minfo[39m: [32mServer closed[39m
+2023-07-10 01:34:48:3448 [32minfo[39m: [32mMongoose connected[39m
+2023-07-10 01:34:48:3448 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-10 01:35:00:350 [35mhttp[39m: [35mPATCH /api/user/private/update 200 346 - 4026.423 ms[39m
+[35m[39m
+2023-07-10 01:35:45:3545 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-10 01:35:45:3545 [32minfo[39m: [32mPath:[39m
+2023-07-10 01:35:45:3545 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-10 01:35:45:3545 [35mhttp[39m: [35mGET /api/user/private/about 401 59 - 3.529 ms[39m
+[35m[39m
+2023-07-10 01:36:21:3621 [35mhttp[39m: [35mGET /api/user/private/about 200 297 - 577.604 ms[39m
+[35m[39m
+2023-07-10 01:38:12:3812 [32minfo[39m: [32mServer closed[39m
+2023-07-11 00:11:39:1139 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:11:39:1139 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:11:42:1142 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 00:11:42:1142 [32minfo[39m: [32mPath:[39m
+2023-07-11 00:11:42:1142 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-11 00:11:42:1142 [32minfo[39m: [32mError is known.[39m
+2023-07-11 00:11:42:1142 [35mhttp[39m: [35mPUT /api/user/private/update 401 68 - 338.449 ms[39m
+[35m[39m
+2023-07-11 00:12:43:1243 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:12:43:1243 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:12:45:1245 [35mhttp[39m: [35mPUT /api/user/private/update 200 43 - 1017.275 ms[39m
+[35m[39m
+2023-07-11 00:13:00:130 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 00:13:00:130 [32minfo[39m: [32mPath:[39m
+2023-07-11 00:13:00:130 [31merror[39m: [31mError occured: ValidationError[39m
+2023-07-11 00:13:00:130 [32minfo[39m: [32mError is known.[39m
+2023-07-11 00:13:00:130 [35mhttp[39m: [35mPUT /api/user/private/update 401 68 - 288.165 ms[39m
+[35m[39m
+2023-07-11 00:13:16:1316 [35mhttp[39m: [35mPUT /api/user/private/update 200 43 - 959.295 ms[39m
+[35m[39m
+2023-07-11 00:19:22:1922 [35mhttp[39m: [35mPOST /api/user/login 200 348 - 343.505 ms[39m
+[35m[39m
+2023-07-11 00:23:17:2317 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:23:17:2317 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:24:18:2418 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 00:24:18:2418 [32minfo[39m: [32mPath:[39m
+2023-07-11 00:24:18:2418 [31merror[39m: [31mError occured: Product validation failed: createdBy: Path `createdBy` is required.[39m
+2023-07-11 00:24:18:2418 [35mhttp[39m: [35mPOST /api/admin/product/create 500 67 - 6575.536 ms[39m
+[35m[39m
+2023-07-11 00:25:24:2524 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:25:24:2524 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:25:41:2541 [35mhttp[39m: [35mPOST /api/admin/product/create 201 899 - 8363.241 ms[39m
+[35m[39m
+2023-07-11 00:34:57:3457 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:34:57:3457 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:37:59:3759 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:37:59:3759 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:39:04:394 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:39:04:394 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:39:38:3938 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:39:38:3938 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:40:18:4018 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:40:18:4018 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:42:08:428 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:42:08:428 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:44:58:4458 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:44:58:4458 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:45:26:4526 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:45:26:4526 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:46:00:460 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:46:00:460 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:50:39:5039 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:50:39:5039 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:51:11:5111 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 00:51:11:5111 [32minfo[39m: [32mPath:[39m
+2023-07-11 00:51:11:5111 [31merror[39m: [31mError occured: No authorization token was found[39m
+2023-07-11 00:51:11:5111 [35mhttp[39m: [35mPOST /api/admin/product/update/64ac4d24adabf747619aeebd 500 59 - 5.666 ms[39m
+[35m[39m
+2023-07-11 00:51:37:5137 [35mhttp[39m: [35mPOST /api/admin/product/update/64ac4d24adabf747619aeebd 200 145 - 589.232 ms[39m
+[35m[39m
+2023-07-11 00:52:04:524 [35mhttp[39m: [35mGET /api/product/64ac4d24adabf747619aeebd 200 911 - 285.044 ms[39m
+[35m[39m
+2023-07-11 00:53:25:5325 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:53:25:5325 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:53:27:5327 [35mhttp[39m: [35mPOST /api/admin/product/update/64ac4d24adabf747619aeebd 200 952 - 717.887 ms[39m
+[35m[39m
+2023-07-11 00:54:03:543 [35mhttp[39m: [35mPOST /api/admin/product/update/64ac4d24adabf747619aeebd 200 952 - 599.787 ms[39m
+[35m[39m
+2023-07-11 00:54:35:5435 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:54:35:5435 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 00:54:39:5439 [35mhttp[39m: [35mPOST /api/admin/product/update/64ac4d24adabf747619aeebd 200 960 - 597.173 ms[39m
+[35m[39m
+2023-07-11 00:55:04:554 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 00:55:04:554 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:00:38:038 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:00:38:038 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:01:16:116 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:01:16:116 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:02:33:233 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:02:33:233 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:16:44:1644 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:16:44:1644 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:17:43:1743 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 113 - 611.169 ms[39m
+[35m[39m
+2023-07-11 01:18:28:1828 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:18:28:1828 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:18:33:1833 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 113 - 613.038 ms[39m
+[35m[39m
+2023-07-11 01:19:31:1931 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:19:31:1931 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:19:35:1935 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 113 - 2347.210 ms[39m
+[35m[39m
+2023-07-11 01:21:40:2140 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:21:40:2140 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:21:44:2144 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 303 - 576.715 ms[39m
+[35m[39m
+2023-07-11 01:23:40:2340 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:23:40:2340 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:24:38:2438 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:24:38:2438 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:25:03:253 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 303 - 676.116 ms[39m
+[35m[39m
+2023-07-11 01:25:23:2523 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:25:23:2523 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:27:01:271 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:27:01:271 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:27:14:2714 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 303 - 649.492 ms[39m
+[35m[39m
+2023-07-11 01:30:42:3042 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:30:42:3042 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:30:46:3046 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 303 - 590.183 ms[39m
+[35m[39m
+2023-07-11 01:31:06:316 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:31:06:316 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:31:11:3111 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 303 - 593.506 ms[39m
+[35m[39m
+2023-07-11 01:34:00:340 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:34:00:340 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:36:35:3635 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:36:35:3635 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:37:22:3722 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 01:37:22:3722 [32minfo[39m: [32mPath:[39m
+2023-07-11 01:37:22:3722 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'secure_url')[39m
+2023-07-11 01:37:22:3722 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 500 85 - 4880.226 ms[39m
+[35m[39m
+2023-07-11 01:37:50:3750 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:37:50:3750 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:38:13:3813 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:38:13:3813 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:38:20:3820 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 01:38:20:3820 [32minfo[39m: [32mPath:[39m
+2023-07-11 01:38:20:3820 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query.[39m
+2023-07-11 01:38:20:3820 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 500 153 - 4685.916 ms[39m
+[35m[39m
+2023-07-11 01:40:13:4013 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:40:13:4013 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:41:18:4118 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 01:41:18:4118 [32minfo[39m: [32mPath:[39m
+2023-07-11 01:41:18:4118 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query.[39m
+2023-07-11 01:41:18:4118 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 500 153 - 4489.878 ms[39m
+[35m[39m
+2023-07-11 01:42:20:4220 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:42:20:4220 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:42:26:4226 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 303 - 603.338 ms[39m
+[35m[39m
+2023-07-11 01:43:54:4354 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:43:54:4354 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:44:11:4411 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:44:11:4411 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:44:22:4422 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 01:44:22:4422 [32minfo[39m: [32mPath:[39m
+2023-07-11 01:44:22:4422 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query.[39m
+2023-07-11 01:44:22:4422 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 500 153 - 4945.712 ms[39m
+[35m[39m
+2023-07-11 01:45:11:4511 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:45:11:4511 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:45:17:4517 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 303 - 644.744 ms[39m
+[35m[39m
+2023-07-11 01:48:58:4858 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:48:58:4858 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:49:35:4935 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:49:35:4935 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:49:47:4947 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 01:49:47:4947 [32minfo[39m: [32mPath:[39m
+2023-07-11 01:49:47:4947 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query.[39m
+2023-07-11 01:49:47:4947 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 500 153 - 4017.425 ms[39m
+[35m[39m
+2023-07-11 01:53:21:5321 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:53:21:5321 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:53:27:5327 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 61 - 3512.040 ms[39m
+[35m[39m
+2023-07-11 01:53:57:5357 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:53:57:5357 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:54:11:5411 [35mhttp[39m: [35mGET /api/product/64ac4d24adabf747619aeebd 200 919 - 283.578 ms[39m
+[35m[39m
+2023-07-11 01:54:43:5443 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 61 - 5187.734 ms[39m
+[35m[39m
+2023-07-11 01:54:51:5451 [35mhttp[39m: [35mGET /api/product/64ac4d24adabf747619aeebd 200 919 - 273.904 ms[39m
+[35m[39m
+2023-07-11 01:55:34:5534 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:55:34:5534 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 01:57:55:5755 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 01:57:55:5755 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:01:14:114 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:01:14:114 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:01:26:126 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 02:01:26:126 [32minfo[39m: [32mPath:[39m
+2023-07-11 02:01:26:126 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query.[39m
+2023-07-11 02:01:26:126 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 500 153 - 4616.316 ms[39m
+[35m[39m
+2023-07-11 02:03:36:336 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:03:36:336 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:03:43:343 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 6609.996 ms[39m
+[35m[39m
+2023-07-11 02:04:14:414 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 7361.565 ms[39m
+[35m[39m
+2023-07-11 02:06:53:653 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:06:53:653 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:07:00:70 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 4589.930 ms[39m
+[35m[39m
+2023-07-11 02:07:33:733 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:07:33:733 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:07:40:740 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 5065.978 ms[39m
+[35m[39m
+2023-07-11 02:12:21:1221 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 3950.450 ms[39m
+[35m[39m
+2023-07-11 02:14:01:141 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:14:01:141 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:15:05:155 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:15:05:155 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:16:08:168 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:16:08:168 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:16:13:1613 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 4026.574 ms[39m
+[35m[39m
+2023-07-11 02:16:38:1638 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 4620.937 ms[39m
+[35m[39m
+2023-07-11 02:18:23:1823 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:18:23:1823 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:19:46:1946 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:19:46:1946 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:20:16:2016 [32minfo[39m: [32mMongoose connected[39m
+2023-07-11 02:20:16:2016 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-11 02:21:13:2113 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-11 02:21:13:2113 [32minfo[39m: [32mPath:[39m
+2023-07-11 02:21:13:2113 [31merror[39m: [31mError occured: File too large[39m
+2023-07-11 02:21:13:2113 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 500 41 - 317.545 ms[39m
+[35m[39m
+2023-07-11 02:21:37:2137 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 6261.534 ms[39m
+[35m[39m

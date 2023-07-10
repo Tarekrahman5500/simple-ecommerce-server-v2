@@ -1,5 +1,5 @@
 import express, {Router} from "express";
-import {validateUpdateUserRequest} from "../../util/userValidator";
+import {validateUpdateUserRequest} from "../../util/Validator";
 
 const router: Router = express.Router();
 
