@@ -1202,3 +1202,399 @@
 [35m[39m
 2023-07-11 02:21:37:2137 [35mhttp[39m: [35mPATCH /api/admin/product/update/64ac4d24adabf747619aeebd?imageId=64ac4d24adabf747619aeebf 200 965 - 6261.534 ms[39m
 [35m[39m
+2023-07-11 02:27:36:2736 [32minfo[39m: [32mServer closed[39m
+2023-07-12 00:44:39:4439 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:44:39:4439 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:45:27:4527 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:45:27:4527 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:46:06:466 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 00:46:06:466 [32minfo[39m: [32mPath:[39m
+2023-07-12 00:46:06:466 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 00:46:06:466 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 500 107 - 304.937 ms[39m
+[35m[39m
+2023-07-12 00:47:38:4738 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:47:38:4738 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:48:03:483 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 00:48:03:483 [32minfo[39m: [32mPath:[39m
+2023-07-12 00:48:03:483 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 00:48:03:483 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 500 107 - 313.854 ms[39m
+[35m[39m
+2023-07-12 00:49:43:4943 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:49:43:4943 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:51:04:514 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:51:04:514 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:53:08:538 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 00:53:08:538 [32minfo[39m: [32mPath:[39m
+2023-07-12 00:53:08:538 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 00:53:08:538 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 500 107 - 296.243 ms[39m
+[35m[39m
+2023-07-12 00:57:53:5753 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:57:53:5753 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:58:53:5853 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:58:53:5853 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:59:18:5918 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 00:59:18:5918 [32minfo[39m: [32mPath:[39m
+2023-07-12 00:59:18:5918 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 00:59:18:5918 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 500 107 - 308.341 ms[39m
+[35m[39m
+2023-07-12 00:59:43:5943 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 00:59:43:5943 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 00:59:48:5948 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 630.593 ms[39m
+[35m[39m
+2023-07-12 01:00:32:032 [35mhttp[39m: [35mDELETE /api/admin/product/update/63d80fe9ccc28fdcfa82769e 200 42 - 618.407 ms[39m
+[35m[39m
+2023-07-12 01:00:50:050 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 610.005 ms[39m
+[35m[39m
+2023-07-12 01:01:36:136 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:01:36:136 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:01:40:140 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 854.086 ms[39m
+[35m[39m
+2023-07-12 01:02:01:21 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 01:02:01:21 [32minfo[39m: [32mPath:[39m
+2023-07-12 01:02:01:21 [31merror[39m: [31mError occured: Unauthenticated[39m
+2023-07-12 01:02:01:21 [32minfo[39m: [32mError is known.[39m
+2023-07-12 01:02:01:21 [35mhttp[39m: [35mDELETE /api/admin/product/update/63d80fe9ccc28fdcfa82769e 401 104 - 569.860 ms[39m
+[35m[39m
+2023-07-12 01:02:30:230 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:02:30:230 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:02:33:233 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 01:02:33:233 [32minfo[39m: [32mPath:[39m
+2023-07-12 01:02:33:233 [31merror[39m: [31mError occured: Unauthenticated[39m
+2023-07-12 01:02:33:233 [32minfo[39m: [32mError is known.[39m
+2023-07-12 01:02:33:233 [35mhttp[39m: [35mDELETE /api/admin/product/update/63d80fe9ccc28fdcfa82769e 401 104 - 613.963 ms[39m
+[35m[39m
+2023-07-12 01:03:18:318 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:03:18:318 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:03:29:329 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 887.332 ms[39m
+[35m[39m
+2023-07-12 01:03:44:344 [35mhttp[39m: [35mGET /api/product/64ac4d24adabf747619aeebd 200 918 - 296.271 ms[39m
+[35m[39m
+2023-07-12 01:03:57:357 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 877.482 ms[39m
+[35m[39m
+2023-07-12 01:12:04:124 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:12:04:124 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:12:11:1211 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 860.026 ms[39m
+[35m[39m
+2023-07-12 01:12:35:1235 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:12:35:1235 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:12:37:1237 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 1250.610 ms[39m
+[35m[39m
+2023-07-12 01:13:15:1315 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:13:15:1315 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:24:10:2410 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:24:10:2410 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:26:58:2658 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 01:26:58:2658 [32minfo[39m: [32mPath:[39m
+2023-07-12 01:26:58:2658 [31merror[39m: [31mError occured: Unsupported BSON version, bson types must be from bson 5.0 or later[39m
+2023-07-12 01:26:58:2658 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 500 94 - 607.014 ms[39m
+[35m[39m
+2023-07-12 01:27:55:2755 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:27:55:2755 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:27:58:2758 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 898.769 ms[39m
+[35m[39m
+2023-07-12 01:29:08:298 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:29:08:298 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:29:11:2911 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 42 - 897.124 ms[39m
+[35m[39m
+2023-07-12 01:33:50:3350 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:33:50:3350 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:34:00:340 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 959 - 3310.695 ms[39m
+[35m[39m
+2023-07-12 01:34:07:347 [35mhttp[39m: [35mGET /api/product/64ac4d24adabf747619aeebd 200 16 - 299.262 ms[39m
+[35m[39m
+2023-07-12 01:34:50:3450 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:34:50:3450 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:34:54:3454 [35mhttp[39m: [35mDELETE /api/admin/product/update/64ac4d24adabf747619aeebd 200 44 - 1848.975 ms[39m
+[35m[39m
+2023-07-12 01:38:18:3818 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:38:18:3818 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:57:02:572 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:57:02:572 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:57:59:5759 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:57:59:5759 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 01:59:09:599 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 01:59:09:599 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 02:00:13:013 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 02:00:13:013 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 02:01:08:18 [32minfo[39m: [32mServer closed[39m
+2023-07-12 03:24:17:2417 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:24:17:2417 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:24:21:2421 [35mhttp[39m: [35mPOST /api/admin/product/create 201 351 - 2622.148 ms[39m
+[35m[39m
+2023-07-12 03:25:30:2530 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 03:25:30:2530 [32minfo[39m: [32mPath:[39m
+2023-07-12 03:25:30:2530 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-12 03:25:30:2530 [32minfo[39m: [32mError is known.[39m
+2023-07-12 03:25:30:2530 [35mhttp[39m: [35mPOST /api/user/cart/addItem 404 84 - 313.247 ms[39m
+[35m[39m
+2023-07-12 03:26:18:2618 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 901.615 ms[39m
+[35m[39m
+2023-07-12 03:27:00:270 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 517 - 909.222 ms[39m
+[35m[39m
+2023-07-12 03:32:39:3239 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:32:39:3239 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:33:18:3318 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:33:18:3318 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:35:25:3525 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 893.091 ms[39m
+[35m[39m
+2023-07-12 03:35:58:3558 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 858.650 ms[39m
+[35m[39m
+2023-07-12 03:36:46:3646 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:36:46:3646 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:36:54:3654 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 872.246 ms[39m
+[35m[39m
+2023-07-12 03:37:21:3721 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:37:21:3721 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:37:34:3734 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 953.762 ms[39m
+[35m[39m
+2023-07-12 03:38:24:3824 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:38:24:3824 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:39:53:3953 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:39:53:3953 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:40:02:402 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 897.438 ms[39m
+[35m[39m
+2023-07-12 03:40:36:4036 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1457.918 ms[39m
+[35m[39m
+2023-07-12 03:43:39:4339 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:43:39:4339 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:44:11:4411 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:44:11:4411 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:44:31:4431 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 440 - 2470.517 ms[39m
+[35m[39m
+2023-07-12 03:44:55:4455 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:44:55:4455 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:45:02:452 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 440 - 2451.722 ms[39m
+[35m[39m
+2023-07-12 03:46:16:4616 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:46:16:4616 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:47:07:477 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:47:07:477 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:47:23:4723 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:47:23:4723 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:47:29:4729 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 440 - 2349.259 ms[39m
+[35m[39m
+2023-07-12 03:47:45:4745 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:47:45:4745 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:47:57:4757 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 882 - 2330.837 ms[39m
+[35m[39m
+2023-07-12 03:49:27:4927 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:49:27:4927 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:49:35:4935 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:49:35:4935 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:50:19:5019 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:50:19:5019 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:50:23:5023 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 458 - 2410.466 ms[39m
+[35m[39m
+2023-07-12 03:51:49:5149 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:51:49:5149 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:51:54:5154 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 03:51:54:5154 [32minfo[39m: [32mPath:[39m
+2023-07-12 03:51:54:5154 [31merror[39m: [31mError occured: Schema hasn't been registered for model "fullName".[39m
+[31mUse mongoose.model(name, schema)[39m
+2023-07-12 03:51:54:5154 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 500 114 - 894.957 ms[39m
+[35m[39m
+2023-07-12 03:52:30:5230 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:52:30:5230 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:55:32:5532 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:55:32:5532 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:55:46:5546 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:55:46:5546 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:57:01:571 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:57:01:571 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:57:15:5715 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 458 - 2484.214 ms[39m
+[35m[39m
+2023-07-12 03:57:47:5747 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:57:47:5747 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:57:53:5753 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 478 - 2461.176 ms[39m
+[35m[39m
+2023-07-12 03:58:07:587 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:58:07:587 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 03:58:11:5811 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 458 - 2389.047 ms[39m
+[35m[39m
+2023-07-12 03:58:29:5829 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 03:58:29:5829 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:00:46:046 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:00:46:046 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:02:00:20 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:02:00:20 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:02:09:29 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 04:02:09:29 [32minfo[39m: [32mPath:[39m
+2023-07-12 04:02:09:29 [31merror[39m: [31mError occured: Cannot populate path `product` because it is not in your schema. Set the `strictPopulate` option to false to override.[39m
+2023-07-12 04:02:09:29 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 500 145 - 893.628 ms[39m
+[35m[39m
+2023-07-12 04:03:54:354 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:03:54:354 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:04:00:40 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 478 - 2344.534 ms[39m
+[35m[39m
+2023-07-12 04:05:37:537 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:05:37:537 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:05:44:544 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1068 - 2402.233 ms[39m
+[35m[39m
+2023-07-12 04:06:14:614 [35mhttp[39m: [35mGET /api/product/64ac4d24adabf747619aeebd 200 16 - 300.449 ms[39m
+[35m[39m
+2023-07-12 04:07:00:70 [35mhttp[39m: [35mDELETE /api/admin/product/update/64adc885ef6ce0d01e6d6a63 200 40 - 1844.306 ms[39m
+[35m[39m
+2023-07-12 04:07:27:727 [35mhttp[39m: [35mPOST /api/admin/product/create 201 899 - 8437.768 ms[39m
+[35m[39m
+2023-07-12 04:07:48:748 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 887 - 2119.514 ms[39m
+[35m[39m
+2023-07-12 04:08:02:82 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 887 - 2106.020 ms[39m
+[35m[39m
+2023-07-12 04:08:20:820 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 887 - 2111.204 ms[39m
+[35m[39m
+2023-07-12 04:08:51:851 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:08:51:851 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:08:57:857 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 347 - 1541.038 ms[39m
+[35m[39m
+2023-07-12 04:09:13:913 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 347 - 1520.134 ms[39m
+[35m[39m
+2023-07-12 04:09:31:931 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 902.686 ms[39m
+[35m[39m
+2023-07-12 04:09:42:942 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 915.603 ms[39m
+[35m[39m
+2023-07-12 04:10:14:1014 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 347 - 1516.252 ms[39m
+[35m[39m
+2023-07-12 04:11:23:1123 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 262 - 926.734 ms[39m
+[35m[39m
+2023-07-12 04:11:33:1133 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1508.781 ms[39m
+[35m[39m
+2023-07-12 04:11:41:1141 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1507.982 ms[39m
+[35m[39m
+2023-07-12 04:12:10:1210 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:12:10:1210 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:12:15:1215 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 3351.406 ms[39m
+[35m[39m
+2023-07-12 04:13:04:134 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1416.076 ms[39m
+[35m[39m
+2023-07-12 04:13:44:1344 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:13:44:1344 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:13:47:1347 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1646.792 ms[39m
+[35m[39m
+2023-07-12 04:14:11:1411 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1429.207 ms[39m
+[35m[39m
+2023-07-12 04:14:36:1436 [32minfo[39m: [32mServer closed[39m
+2023-07-12 04:15:03:153 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:15:03:153 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:15:08:158 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1465.719 ms[39m
+[35m[39m
+2023-07-12 04:15:28:1528 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:15:28:1528 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:15:34:1534 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1499.179 ms[39m
+[35m[39m
+2023-07-12 04:16:01:161 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:16:01:161 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:16:05:165 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1489.709 ms[39m
+[35m[39m
+2023-07-12 04:16:58:1658 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:16:58:1658 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:17:02:172 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 13 - 1504.382 ms[39m
+[35m[39m
+2023-07-12 04:18:46:1846 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:18:46:1846 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:18:57:1857 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 262 - 2435.461 ms[39m
+[35m[39m
+2023-07-12 04:20:01:201 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:20:01:201 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:20:06:206 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 262 - 1825.620 ms[39m
+[35m[39m
+2023-07-12 04:22:31:2231 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 910.988 ms[39m
+[35m[39m
+2023-07-12 04:22:53:2253 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1785.819 ms[39m
+[35m[39m
+2023-07-12 04:23:08:238 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1183.633 ms[39m
+[35m[39m
+2023-07-12 04:23:22:2322 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1784.065 ms[39m
+[35m[39m
+2023-07-12 04:23:40:2340 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 2084.384 ms[39m
+[35m[39m
+2023-07-12 04:24:23:2423 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:24:23:2423 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:24:38:2438 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1533.845 ms[39m
+[35m[39m
+2023-07-12 04:24:46:2446 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1493.924 ms[39m
+[35m[39m
+2023-07-12 04:24:57:2457 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1492.851 ms[39m
+[35m[39m
+2023-07-12 04:25:18:2518 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:25:18:2518 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:25:26:2526 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 1558.305 ms[39m
+[35m[39m
+2023-07-12 04:26:01:261 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 432 - 918.709 ms[39m
+[35m[39m
+2023-07-12 04:26:17:2617 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:26:17:2617 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:26:21:2621 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1616 - 1241.247 ms[39m
+[35m[39m
+2023-07-12 04:26:39:2639 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1616 - 1205.198 ms[39m
+[35m[39m
+2023-07-12 04:29:33:2933 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:29:33:2933 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:29:54:2954 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:29:54:2954 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:30:30:3030 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:30:30:3030 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:30:42:3042 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:30:42:3042 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:30:46:3046 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1616 - 1182.742 ms[39m
+[35m[39m
+2023-07-12 04:31:56:3156 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1616 - 1198.806 ms[39m
+[35m[39m
+2023-07-12 04:32:57:3257 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:32:57:3257 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:33:04:334 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:33:04:334 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:33:09:339 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 2233 - 1208.442 ms[39m
+[35m[39m
+2023-07-12 04:34:27:3427 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:34:27:3427 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:34:31:3431 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1616 - 1256.763 ms[39m
+[35m[39m
+2023-07-12 04:35:42:3542 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:35:42:3542 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:36:01:361 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1616 - 1236.805 ms[39m
+[35m[39m
+2023-07-12 04:39:07:397 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:39:07:397 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:39:12:3912 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1641 - 1476.416 ms[39m
+[35m[39m
+2023-07-12 04:39:51:3951 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:39:51:3951 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:41:34:4134 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:41:34:4134 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:41:44:4144 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1687 - 1525.417 ms[39m
+[35m[39m
+2023-07-12 04:43:10:4310 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 04:43:10:4310 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 04:43:17:4317 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1687 - 1431.785 ms[39m
+[35m[39m
+2023-07-12 05:05:30:530 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:05:30:530 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:10:31:1031 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:10:31:1031 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:11:02:112 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:11:02:112 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:11:07:117 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1687 - 3904.136 ms[39m
+[35m[39m
+2023-07-12 05:11:14:1114 [35mhttp[39m: [35mPOST /api/user/private/cart/addItem 201 1687 - 1816.375 ms[39m
+[35m[39m
+2023-07-12 05:16:23:1623 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:16:23:1623 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:16:58:1658 [35mhttp[39m: [35mGET /api/user/private/cart/getItem 201 1687 - 1189.163 ms[39m
+[35m[39m
+2023-07-12 05:21:32:2132 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:21:32:2132 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:23:17:2317 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:23:17:2317 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:25:08:258 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:25:08:258 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:25:24:2524 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 05:25:24:2524 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 05:26:36:2636 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 05:26:36:2636 [32minfo[39m: [32mPath:[39m
+2023-07-12 05:26:36:2636 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-12 05:26:36:2636 [32minfo[39m: [32mError is known.[39m
+2023-07-12 05:26:36:2636 [35mhttp[39m: [35mDELETE /api/user/private/cart/remove/?productId=63e7c839f356725ab0253d43 404 127 - 312.877 ms[39m
+[35m[39m
+2023-07-12 05:26:57:2657 [35mhttp[39m: [35mDELETE /api/user/private/cart/remove/63e7c839f356725ab0253d43 201 1332 - 1476.573 ms[39m
+[35m[39m
+2023-07-12 05:31:43:3143 [32minfo[39m: [32mServer closed[39m

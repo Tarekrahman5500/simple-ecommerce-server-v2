@@ -116,8 +116,18 @@ export const validateUpdateProductRequest = [
         .withMessage('Product category is required'),
 ];
 
+//  Cart Validation middleware
+export const validateCartItems = [
+    body('cartItems.*.product')
+        .isString()
+        .withMessage('Product must be a string'),
+    body('cartItems.*.quantity')
+        .isInt({gt: 0})
+        .withMessage('Quantity must be an integer greater than 0'),
+];
 
-export const isRequestUserValidated = (req: Request, res: Response, next: NextFunction | undefined) => {
+
+export const isRequestValidated = (req: Request, res: Response, next: NextFunction | undefined) => {
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {

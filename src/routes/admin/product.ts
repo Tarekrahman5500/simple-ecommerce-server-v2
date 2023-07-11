@@ -1,18 +1,18 @@
 import upload from "../../util/uploadImage";
-import {createProduct, updateProduct, updateProductImage} from "../../controller/product";
+import {createProduct, removeProduct, updateProduct, updateProductImage} from "../../controller/product";
 import express, {Router} from "express";
-import {isRequestUserValidated, validateCreateProductRequest, validateUpdateProductRequest} from "../../util/Validator";
+import {isRequestValidated, validateCreateProductRequest, validateUpdateProductRequest} from "../../util/Validator";
 
 const router: Router = express.Router();
 
 
 router.route('/create')
     .post(upload.array('picture', 20),
-        validateCreateProductRequest, isRequestUserValidated, createProduct)
+        validateCreateProductRequest, isRequestValidated, createProduct)
 
 router.route('/update/:productId')
     .post(upload.array('picture', 20),
-        validateUpdateProductRequest, isRequestUserValidated, updateProduct)
+        validateUpdateProductRequest, isRequestValidated, updateProduct)
     .patch(upload.single('picture'), updateProductImage)
-
+    .delete(removeProduct)
 export default router

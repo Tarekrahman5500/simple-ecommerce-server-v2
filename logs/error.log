@@ -108,3 +108,15 @@
 2023-07-11 01:49:47:4947 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query.[39m
 2023-07-11 02:01:26:126 [31merror[39m: [31mError occured: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query.[39m
 2023-07-11 02:21:13:2113 [31merror[39m: [31mError occured: File too large[39m
+2023-07-12 00:46:06:466 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 00:48:03:483 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 00:53:08:538 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 00:59:18:5918 [31merror[39m: [31mError occured: Parameter "obj" to Document() must be an object, got "ordered" (type string)[39m
+2023-07-12 01:02:01:21 [31merror[39m: [31mError occured: Unauthenticated[39m
+2023-07-12 01:02:33:233 [31merror[39m: [31mError occured: Unauthenticated[39m
+2023-07-12 01:26:58:2658 [31merror[39m: [31mError occured: Unsupported BSON version, bson types must be from bson 5.0 or later[39m
+2023-07-12 03:25:30:2530 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-12 03:51:54:5154 [31merror[39m: [31mError occured: Schema hasn't been registered for model "fullName".[39m
+[31mUse mongoose.model(name, schema)[39m
+2023-07-12 04:02:09:29 [31merror[39m: [31mError occured: Cannot populate path `product` because it is not in your schema. Set the `strictPopulate` option to false to override.[39m
+2023-07-12 05:26:36:2636 [31merror[39m: [31mError occured: NotFound[39m

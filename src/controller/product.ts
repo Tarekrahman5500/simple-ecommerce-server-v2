@@ -6,13 +6,15 @@ import Category from "../model/category";
 import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import catchAsyncErrors from "../error-handler/catchAsyncError";
-import {Authentication, IFile, IImage, IProductImage, IProductResponse} from "../types/decs";
+import {Authentication, IFile, IProductImage, IProductResponse} from "../types/decs";
 import {
     deleteFolderRecursive,
     removeImageFromCloudinary,
     uploadImageToCloudinary
 } from "../middleware/imageFolderHandler";
-import UserModel from "../model/user";
+import CartModel from "../model/cart";
+import OrderModel from '../model/order';
+
 
 /**
  * Get products by slug
@@ -148,7 +150,7 @@ export const updateProductImage = catchAsyncErrors(async (req, res, next) => {
     // Convert the imageId to a MongoDB ObjectId
     //const imageObjectId = new Types.ObjectId(imageId);
     const file = req.file as IFile;
-   if (!file) return next?.(new ErrorException(ErrorCode.NotFound, `image must be upload`))
+    if (!file) return next?.(new ErrorException(ErrorCode.NotFound, `image must be upload`))
     const result = await uploadImageToCloudinary('products', file.path, next);
 
     //  console.log(imageId)
@@ -157,10 +159,10 @@ export const updateProductImage = catchAsyncErrors(async (req, res, next) => {
 
     // remove old image
     // if image is present
-   // console.log(productImageId)
-        //  const remove =
-  //  console.log(remove)
-    productImageId &&  await removeImageFromCloudinary(productImageId.productPictures[0].public_id, next)
+    // console.log(productImageId)
+    //  const remove =
+    //  console.log(remove)
+    productImageId && await removeImageFromCloudinary(productImageId.productPictures[0].public_id, next)
 
     // Update the product picture based on the imageId using a MongoDB query
 
@@ -173,6 +175,48 @@ export const updateProductImage = catchAsyncErrors(async (req, res, next) => {
     deleteFolderRecursive('uploads');
 
     return res.status(200).json({product: product, message: 'Product image updated successfully'});
+})
+
+// remove product
+
+export const removeProduct = catchAsyncErrors(async (req, res, next) => {
+    const productId = req.params.productId;
+    // Check if the product has been not  delivered in any order
+    const deliveredOrders = await OrderModel.find({
+        'items.productId': productId,
+        'orderStatus.type': {$in: ['ordered', 'packed', 'shipped']}
+    });
+
+    //console.log(deliveredOrders)
+     // if not delivered so admin can't remove it now
+     if (deliveredOrders.length > 0) {
+         return next?.(new ErrorException(ErrorCode.ValidationError,
+             'Product cannot be removed as it has to be delivered'));
+     }
+    // get all images public id
+    const productImagePublicId = await ProductModel.aggregate([
+        {$match: {_id: new Types.ObjectId(productId)}},
+        {$unwind: '$productPictures'},
+        {$group: {_id: '$_id', publicIds: {$push: '$productPictures.public_id'}}},
+        {$project: {_id: 0, publicIds: 1}}
+    ]);
+
+    for (let i = 0; i <productImagePublicId.length ; i++) {
+        // remove those images from cloudinary
+       await  removeImageFromCloudinary(productImagePublicId[i], next)
+    }
+
+    // Remove the product from the user's cart
+    await CartModel.updateMany({}, {$pull: {cartItems: {product: productId}}});
+
+    // Remove the product from any orders
+    await OrderModel.updateMany({}, {$pull: {products: {product: productId}}});
+
+    // Remove the product itself
+    const product = await ProductModel.findByIdAndRemove(productId);
+
+
+    return res.status(200).json({ message: `${product?.name} removed successfully`});
 })
 
 
