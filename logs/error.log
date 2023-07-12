@@ -120,3 +120,5 @@
 [31mUse mongoose.model(name, schema)[39m
 2023-07-12 04:02:09:29 [31merror[39m: [31mError occured: Cannot populate path `product` because it is not in your schema. Set the `strictPopulate` option to false to override.[39m
 2023-07-12 05:26:36:2636 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-12 23:57:34:5734 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-13 01:05:39:539 [31merror[39m: [31mError occured: $in needs an array[39m

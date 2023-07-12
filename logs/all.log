@@ -1598,3 +1598,76 @@
 2023-07-12 05:26:57:2657 [35mhttp[39m: [35mDELETE /api/user/private/cart/remove/63e7c839f356725ab0253d43 201 1332 - 1476.573 ms[39m
 [35m[39m
 2023-07-12 05:31:43:3143 [32minfo[39m: [32mServer closed[39m
+2023-07-12 23:55:35:5535 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 23:55:35:5535 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 23:57:34:5734 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-12 23:57:34:5734 [32minfo[39m: [32mPath:[39m
+2023-07-12 23:57:34:5734 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-12 23:57:34:5734 [32minfo[39m: [32mError is known.[39m
+2023-07-12 23:57:34:5734 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 404 119 - 312.460 ms[39m
+[35m[39m
+2023-07-12 23:58:41:5841 [32minfo[39m: [32mMongoose connected[39m
+2023-07-12 23:58:41:5841 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-12 23:58:45:5845 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 333 - 338.988 ms[39m
+[35m[39m
+2023-07-12 23:59:40:5940 [32minfo[39m: [32mServer closed[39m
+2023-07-13 01:05:32:532 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:05:32:532 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 01:05:39:539 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-13 01:05:39:539 [32minfo[39m: [32mPath:[39m
+2023-07-13 01:05:39:539 [31merror[39m: [31mError occured: $in needs an array[39m
+2023-07-13 01:05:39:539 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 500 45 - 6084.372 ms[39m
+[35m[39m
+2023-07-13 01:06:59:659 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:06:59:659 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 01:07:16:716 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 14 - 596.721 ms[39m
+[35m[39m
+2023-07-13 01:08:05:85 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:08:05:85 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 01:18:48:1848 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:18:48:1848 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 01:19:00:190 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:19:00:190 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 01:23:45:2345 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:23:45:2345 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 01:44:56:4456 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:44:56:4456 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 01:47:50:4750 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 01:47:50:4750 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:41:23:4123 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:41:23:4123 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:42:58:4258 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:42:58:4258 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:45:06:456 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:45:06:456 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:46:01:461 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:46:01:461 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:46:34:4634 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 55 - 639.392 ms[39m
+[35m[39m
+2023-07-13 02:46:57:4657 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:46:57:4657 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:50:49:5049 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:50:49:5049 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:50:51:5051 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 55 - 732.541 ms[39m
+[35m[39m
+2023-07-13 02:51:10:5110 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:51:10:5110 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:51:13:5113 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 55 - 2519.069 ms[39m
+[35m[39m
+2023-07-13 02:52:48:5248 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:52:48:5248 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:53:11:5311 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:53:11:5311 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 02:53:15:5315 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 76 - 2658.607 ms[39m
+[35m[39m
+2023-07-13 02:54:55:5455 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 02:54:55:5455 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 03:06:43:643 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 03:06:43:643 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 03:06:45:645 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 51 - 621.622 ms[39m
+[35m[39m
+2023-07-13 03:07:52:752 [32minfo[39m: [32mMongoose connected[39m
+2023-07-13 03:07:52:752 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-13 03:07:58:758 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 22 - 597.794 ms[39m
+[35m[39m
+2023-07-13 03:08:29:829 [32minfo[39m: [32mServer closed[39m
