@@ -7,7 +7,8 @@
 This project will run on Express using MongoDB Atlas as database. Project is open for suggestions,
 bug reports and
 pull requests.
-<a href="#">Table of contents</a>
+<br>
+<h2><a href="#">Table of contents</a></h2>
 <ul>
 <li><a>Author</a></li>
 <li><a>Technologies</a></li>
