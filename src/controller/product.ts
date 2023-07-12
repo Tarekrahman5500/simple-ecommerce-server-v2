@@ -15,7 +15,6 @@ import {
 import CartModel from "../model/cart";
 import OrderModel from '../model/order';
 
-
 /**
  * Get products by slug
  * @route GET /api/products/:slug
