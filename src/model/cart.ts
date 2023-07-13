@@ -1,11 +1,11 @@
 import { Schema, Document, model } from 'mongoose';
 
-interface CartItem {
+ export interface CartItem {
     product: Schema.Types.ObjectId;
     quantity: number;
 }
 
-interface Cart extends Document {
+ export interface Cart extends Document {
     user: Schema.Types.ObjectId;
     cartItems: CartItem[];
     createdAt?: Date;

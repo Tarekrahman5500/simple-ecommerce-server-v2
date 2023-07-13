@@ -1,18 +1,18 @@
 import { model, Schema, Document } from 'mongoose';
 
-interface OrderItem extends Document {
+ export interface OrderItem extends Document {
   productId: Schema.Types.ObjectId;
   payablePrice: number;
   purchasedQty: number;
 }
 
-interface OrderStatus extends Document {
+export interface OrderStatus extends Document {
   type: 'ordered' | 'packed' | 'shipped' | 'delivered';
   date?: Date;
   isCompleted: boolean;
 }
 
-interface Order extends Document {
+ export interface Order extends Document {
   user: Schema.Types.ObjectId;
   addressId: Schema.Types.ObjectId;
   totalAmount: number;

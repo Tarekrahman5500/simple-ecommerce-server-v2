@@ -1671,3 +1671,146 @@
 2023-07-13 03:07:58:758 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 22 - 597.794 ms[39m
 [35m[39m
 2023-07-13 03:08:29:829 [32minfo[39m: [32mServer closed[39m
+2023-07-14 00:25:21:2521 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 00:25:21:2521 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 00:25:26:2526 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 22 - 1516.007 ms[39m
+[35m[39m
+2023-07-14 00:27:55:2755 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 00:27:55:2755 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 00:29:54:2954 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 00:29:54:2954 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 00:29:59:2959 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-14 00:29:59:2959 [32minfo[39m: [32mPath:[39m
+2023-07-14 00:29:59:2959 [31merror[39m: [31mError occured: Invalid $project :: caused by :: '_id' starts with an invalid character for a user variable name[39m
+2023-07-14 00:29:59:2959 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 500 123 - 1156.216 ms[39m
+[35m[39m
+2023-07-14 00:31:19:3119 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 00:31:19:3119 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 00:36:00:360 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 00:36:00:360 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 00:48:24:4824 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 00:48:24:4824 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 00:57:48:5748 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 00:57:48:5748 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 00:58:01:581 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744 200 758 - 3260.818 ms[39m
+[35m[39m
+2023-07-14 01:00:39:039 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:00:39:039 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:01:23:123 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:01:23:123 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:02:35:235 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:02:35:235 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:06:50:650 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:06:50:650 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:08:16:816 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:08:16:816 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:09:00:90 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 1661 - 2862.043 ms[39m
+[35m[39m
+2023-07-14 01:12:13:1213 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:12:13:1213 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:12:18:1218 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 1083 - 2092.596 ms[39m
+[35m[39m
+2023-07-14 01:13:06:136 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:13:06:136 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:13:12:1312 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 1083 - 1823.558 ms[39m
+[35m[39m
+2023-07-14 01:13:23:1323 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f1 200 818 - 2824.272 ms[39m
+[35m[39m
+2023-07-14 01:13:53:1353 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 1083 - 2078.468 ms[39m
+[35m[39m
+2023-07-14 01:14:37:1437 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:14:37:1437 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:14:48:1448 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 1083 - 2119.911 ms[39m
+[35m[39m
+2023-07-14 01:15:46:1546 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:15:46:1546 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:28:00:280 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:28:00:280 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:28:04:284 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 922 - 2568.693 ms[39m
+[35m[39m
+2023-07-14 01:31:09:319 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:31:09:319 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:31:13:3113 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-14 01:31:13:3113 [32minfo[39m: [32mPath:[39m
+2023-07-14 01:31:13:3113 [31merror[39m: [31mError occured: Unknown expression $elMatch[39m
+2023-07-14 01:31:13:3113 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 500 54 - 2774.565 ms[39m
+[35m[39m
+2023-07-14 01:31:34:3134 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:31:34:3134 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:31:43:3143 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:31:43:3143 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:31:51:3151 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 1661 - 2196.234 ms[39m
+[35m[39m
+2023-07-14 01:32:25:3225 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:32:25:3225 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:32:29:3229 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 922 - 1963.103 ms[39m
+[35m[39m
+2023-07-14 01:32:58:3258 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 01:32:58:3258 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 01:34:04:344 [32minfo[39m: [32mServer closed[39m
+2023-07-14 02:46:35:4635 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:46:35:4635 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:46:36:4636 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-14 02:46:36:4636 [32minfo[39m: [32mPath:[39m
+2023-07-14 02:46:36:4636 [31merror[39m: [31mError occured: jwt expired[39m
+2023-07-14 02:46:36:4636 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 500 38 - 6.794 ms[39m
+[35m[39m
+2023-07-14 02:46:49:4649 [35mhttp[39m: [35mPOST /api/user/login 200 348 - 394.641 ms[39m
+[35m[39m
+2023-07-14 02:47:43:4743 [35mhttp[39m: [35mPOST /api/user/login 200 345 - 371.313 ms[39m
+[35m[39m
+2023-07-14 02:48:03:483 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 758 - 1843.185 ms[39m
+[35m[39m
+2023-07-14 02:52:38:5238 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:52:38:5238 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:53:22:5322 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:53:22:5322 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:53:56:5356 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:53:56:5356 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:54:01:541 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 758 - 1725.406 ms[39m
+[35m[39m
+2023-07-14 02:54:28:5428 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:54:28:5428 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:54:32:5432 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 758 - 1759.659 ms[39m
+[35m[39m
+2023-07-14 02:54:54:5454 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:54:54:5454 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:54:58:5458 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 758 - 1808.778 ms[39m
+[35m[39m
+2023-07-14 02:55:19:5519 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:55:19:5519 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:55:24:5524 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 797 - 3752.724 ms[39m
+[35m[39m
+2023-07-14 02:55:39:5539 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-14 02:55:39:5539 [32minfo[39m: [32mPath:[39m
+2023-07-14 02:55:39:5539 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
+2023-07-14 02:55:39:5539 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f1 500 82 - 1798.452 ms[39m
+[35m[39m
+2023-07-14 02:55:48:5548 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-14 02:55:48:5548 [32minfo[39m: [32mPath:[39m
+2023-07-14 02:55:48:5548 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
+2023-07-14 02:55:48:5548 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f3 500 82 - 1790.328 ms[39m
+[35m[39m
+2023-07-14 02:55:58:5558 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-14 02:55:58:5558 [32minfo[39m: [32mPath:[39m
+2023-07-14 02:55:58:5558 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
+2023-07-14 02:55:58:5558 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f8 500 82 - 1790.527 ms[39m
+[35m[39m
+2023-07-14 02:56:04:564 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 797 - 1792.834 ms[39m
+[35m[39m
+2023-07-14 02:56:37:5637 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 02:56:37:5637 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 02:56:53:5653 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 883 - 2109.066 ms[39m
+[35m[39m
+2023-07-14 02:58:46:5846 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 883 - 2103.751 ms[39m
+[35m[39m
+2023-07-14 03:00:27:027 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 03:00:27:027 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 03:01:20:120 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 03:01:20:120 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 03:01:25:125 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 758 - 3907.439 ms[39m
+[35m[39m
+2023-07-14 03:01:48:148 [32minfo[39m: [32mMongoose connected[39m
+2023-07-14 03:01:48:148 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-14 03:01:56:156 [35mhttp[39m: [35mPOST /api/user/private/order/addOrder/64add627935bbff002eff744?addressId=63e3c8ebc115b0e124bf09f9 200 797 - 1833.399 ms[39m
+[35m[39m

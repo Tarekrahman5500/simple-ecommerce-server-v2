@@ -122,3 +122,9 @@
 2023-07-12 05:26:36:2636 [31merror[39m: [31mError occured: NotFound[39m
 2023-07-12 23:57:34:5734 [31merror[39m: [31mError occured: NotFound[39m
 2023-07-13 01:05:39:539 [31merror[39m: [31mError occured: $in needs an array[39m
+2023-07-14 00:29:59:2959 [31merror[39m: [31mError occured: Invalid $project :: caused by :: '_id' starts with an invalid character for a user variable name[39m
+2023-07-14 01:31:13:3113 [31merror[39m: [31mError occured: Unknown expression $elMatch[39m
+2023-07-14 02:46:36:4636 [31merror[39m: [31mError occured: jwt expired[39m
+2023-07-14 02:55:39:5539 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
+2023-07-14 02:55:48:5548 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
+2023-07-14 02:55:58:5558 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m

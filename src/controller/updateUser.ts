@@ -10,7 +10,7 @@ import {
     removeImageFromCloudinary,
     uploadImageToCloudinary
 } from "../middleware/imageFolderHandler";
-import {AddressModel} from "../model/address";
+import AddressModel from "../model/address";
 import CartModel from "../model/cart"
 import bcrypt from "bcrypt";
 
