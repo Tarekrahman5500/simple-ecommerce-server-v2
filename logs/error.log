@@ -128,3 +128,5 @@
 2023-07-14 02:55:39:5539 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
 2023-07-14 02:55:48:5548 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
 2023-07-14 02:55:58:5558 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'address')[39m
+2023-07-18 00:49:31:4931 [31merror[39m: [31mError occured: jwt expired[39m
+2023-07-18 00:54:35:5435 [31merror[39m: [31mError occured: jwt expired[39m

@@ -96,4 +96,13 @@ interface IImage {
   }[];
 }
 
+export interface Category {
+  _id: string;
+  name: string;
+  slug: string;
+  parentId?: string;
+  type: string;
+  children: Category[];
+}
+
 

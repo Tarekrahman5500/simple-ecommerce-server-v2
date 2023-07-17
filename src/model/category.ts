@@ -1,10 +1,10 @@
 import {Schema, Document, model} from 'mongoose';
 
-interface IUser {
+ export interface IUser {
     _id: Schema.Types.ObjectId;
 }
 
-interface ICategory extends Document {
+ export interface ICategory extends Document {
     name: string;
     slug: string;
     type?: string;
@@ -23,6 +23,7 @@ const categorySchema = new Schema<ICategory>(
             type: String,
             required: true,
             trim: true,
+            unique: true,
         },
         slug: {
             type: String,

@@ -9,7 +9,7 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
     status = 500
 
     const error: Error = err
-    message = (error.toString()).substr(error.toString().indexOf(" ") + 1)
+    message = ''
   //  console.log(err)
     if (err.name === "CastError") {
         message = `Resource not found. Invalid: ${err.path}`;
@@ -23,10 +23,10 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
     }
 
   // console.log(err)
-   /* if (err.status === 401) {
+    if (err.status === 401) {
         message = (error.toString()).substr(error.toString().indexOf(" ") + 1)
         status = err.status
-    }*/
+    }
 
     if (err.name === "JsonWebTokenError") {
         message = `Json Web Token is invalid, Try again`;
@@ -37,6 +37,8 @@ const unHandleErrors = (err: any, req: Request, res: Response, next: NextFunctio
         message = `Json Web Token is Expired, Try again`;
         status = 403
     }
+
+       message.length === 0 &&  (message = (error.toString()).substr(error.toString().indexOf(" ") + 1))
 
 
     /*  req.UnhandledInfo = {

@@ -1,7 +1,8 @@
 import jwt from "jsonwebtoken";
 import User from "../model/user";
-import cloudinary from '../util/clodninary'
 import env from '../util/validateEnv'
+import CategoryModel from "../model/category";
+import {Category} from '../types/decs'
 
 export const generateJwtToken = (_id: string, role: string) => {
   return jwt.sign({ _id, role }, env.JWT_SECRET, {
@@ -13,43 +14,33 @@ export const checkEmail = async (email: string) => {
   return User.findOne({ email });
 };
 
-/*export const removeImage = async (req: any, res: any, next: any) => {
-  try {
-    const imageId = req.removeImage;
-    await cloudinary.uploader.destroy(imageId, {
-      invalidate: true,
-      resource_type: "image",
-    }, function (error: any, result: any) {
-      if (error) {
-        next(new ErrorResponse('Failed to remove image', 401));
-      }
-      next();
-    });
-  } catch (err) {
-    next(err);
-  }
-};*/
 
-/*export function createCategories(categories: any[], parentId: string | null = null) {
-  const categoryList = [];
-  let category;
+export const getCategoryWithChildren = async (parentId = null) => {
+  const pipeline = [
+    {
+      $match: {
+        parentId: parentId,
+      },
+    },
+    {
+      $lookup: {
+        from: 'categories',
+        localField: '_id',
+        foreignField: 'parentId',
+        as: 'children',
+      },
+    },
+  ];
 
-  if (parentId == null) {
-    category = categories.filter((cat) => cat.parentId === undefined);
-  } else {
-    category = categories.filter((cat) => cat.parentId === parentId);
+  const categories = await CategoryModel.aggregate(pipeline);
+  console.log(categories);
+
+  for (const category of categories) {
+    category.children = await getCategoryWithChildren(category._id);
   }
 
-  for (const cate of category) {
-    categoryList.push({
-      _id: cate._id,
-      name: cate.name,
-      slug: cate.slug,
-      parentId: cate.parentId,
-      type: cate.type,
-      children: createCategories(categories, cate._id),
-    });
-  }
+  return categories;
+};
 
-  return categoryList;
-}*/
+
+
