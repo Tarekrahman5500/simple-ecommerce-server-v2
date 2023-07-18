@@ -102,6 +102,10 @@ export interface Category {
   slug: string;
   parentId?: string;
   type: string;
+  categoryImage: {
+    public_id: string;
+    url: string;
+  };
   children: Category[];
 }
 

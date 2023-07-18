@@ -6,7 +6,7 @@ import {Category, IFile, IProfilePic} from "../types/decs";
 import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import {deleteFolderRecursive, uploadImageToCloudinary} from "../middleware/imageFolderHandler";
-import {getCategoryWithChildren} from "../middleware/commonFunctions";
+import {createCategories} from "../middleware/commonFunctions";
 
 
 export const addCategory = catchAsyncErrors(async (req, res, next) => {
@@ -44,11 +44,11 @@ export const addCategory = catchAsyncErrors(async (req, res, next) => {
 
 export const getCategory = catchAsyncErrors(async (req, res, next) => {
 
-   // const category = await CategoryModel.find() as ICategory[];
+    const category = await CategoryModel.find().lean() as ICategory[] ;
    // let categoryList: Category[];
 
     // Call the function with parentId as null to get top-level categories
-   const  categoryList = await getCategoryWithChildren(null);
+   const  categoryList =  createCategories(category);
 
     return res.status(200).json({categoryList});
 

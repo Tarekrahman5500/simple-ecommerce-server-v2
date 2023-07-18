@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import User from "../model/user";
 import env from '../util/validateEnv'
-import CategoryModel from "../model/category";
+import CategoryModel, {ICategory} from "../model/category";
 import {Category} from '../types/decs'
 
 export const generateJwtToken = (_id: string, role: string) => {
@@ -15,32 +15,25 @@ export const checkEmail = async (email: string) => {
 };
 
 
-export const getCategoryWithChildren = async (parentId = null) => {
-  const pipeline = [
-    {
-      $match: {
-        parentId: parentId,
-      },
-    },
-    {
-      $lookup: {
-        from: 'categories',
-        localField: '_id',
-        foreignField: 'parentId',
-        as: 'children',
-      },
-    },
-  ];
-
-  const categories = await CategoryModel.aggregate(pipeline);
-  console.log(categories);
+export  function createCategories(categories: ICategory[], parentId: string | null = null): ICategory[] {
+  const categoryList: ICategory[] = [];
 
   for (const category of categories) {
-    category.children = await getCategoryWithChildren(category._id);
+    if ((parentId === null && category.parentId == undefined) || category.parentId == parentId) {
+      const childCategories = createCategories(categories, category._id);
+      const categoryWithChildren = {
+        ...category,
+        children: childCategories,
+      }as  ICategory
+      categoryList.push(categoryWithChildren);
+    }
   }
 
-  return categories;
-};
+  return categoryList;
+}
+
+
+
 
 
 

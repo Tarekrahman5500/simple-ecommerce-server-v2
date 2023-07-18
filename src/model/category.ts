@@ -14,6 +14,7 @@ import {Schema, Document, model} from 'mongoose';
     };
     parentId?: string;
     createdBy: IUser['_id'];
+    children?: ICategory[];
     updatedAt?: Date;
 }
 
@@ -56,6 +57,8 @@ const categorySchema = new Schema<ICategory>(
     },
     {timestamps: true}
 );
+
+
 
 const Category = model<ICategory>('Category', categorySchema);
 
