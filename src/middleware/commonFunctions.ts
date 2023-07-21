@@ -28,6 +28,8 @@ export  function createCategories(categories: ICategory[], parentId: string | nu
     }
   }
 
+  //console.log(categoryList)
+
   return categoryList;
 }
 

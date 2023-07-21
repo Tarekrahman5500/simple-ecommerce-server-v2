@@ -7,7 +7,6 @@ import {ErrorException} from "../error-handler/errorException";
 import {ErrorCode} from "../error-handler/errorCode";
 import {deleteFolderRecursive, uploadImageToCloudinary} from "../middleware/imageFolderHandler";
 import {createCategories} from "../middleware/commonFunctions";
-import {ObjectId} from "mongodb";
 import {Types} from "mongoose";
 
 
