@@ -14,6 +14,7 @@ import {
 } from "../middleware/imageFolderHandler";
 import CartModel from "../model/cart";
 import OrderModel from '../model/order';
+//import {searchProducts} from "../middleware/elasticSearch";
 
 /**
  * Get products by slug
@@ -217,5 +218,22 @@ export const removeProduct = catchAsyncErrors(async (req, res, next) => {
 
     return res.status(200).json({ message: `${product?.name} removed successfully`});
 })
+
+// elastic search
+
+/*
+export const Search = catchAsyncErrors( async (req, res, next) => {
+
+    // Usage example
+const searchTerm = 'example';
+searchProducts(searchTerm)
+  .then((products) => {
+    console.log('Matching products:', products);
+  })
+  .catch((error) => {
+    console.error('Error searching products:', error);
+  });
+})
+*/
 
 

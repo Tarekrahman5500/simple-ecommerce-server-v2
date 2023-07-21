@@ -131,3 +131,5 @@
 2023-07-18 00:49:31:4931 [31merror[39m: [31mError occured: jwt expired[39m
 2023-07-18 00:54:35:5435 [31merror[39m: [31mError occured: jwt expired[39m
 2023-07-19 00:16:52:1652 [31merror[39m: [31mError occured: category.toObject is not a function[39m
+2023-07-19 03:21:04:214 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-19 03:42:56:4256 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'match')[39m

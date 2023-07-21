@@ -1988,3 +1988,97 @@
 2023-07-19 00:30:11:3011 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
 2023-07-19 00:30:15:3015 [35mhttp[39m: [35mGET /api/admin/category/getCategory 200 9295 - 2687.842 ms[39m
 [35m[39m
+2023-07-19 00:31:09:319 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 00:31:09:319 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 00:38:45:3845 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 00:38:45:3845 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 00:40:20:4020 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 00:40:20:4020 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 00:41:16:4116 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 00:41:16:4116 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 00:41:51:4151 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 00:41:51:4151 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 01:07:40:740 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 01:07:40:740 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 01:20:40:2040 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 01:20:40:2040 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 01:22:44:2244 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 01:22:44:2244 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 01:23:12:2312 [32minfo[39m: [32mServer closed[39m
+2023-07-19 03:20:52:2052 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:20:52:2052 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:21:04:214 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-19 03:21:04:214 [32minfo[39m: [32mPath:[39m
+2023-07-19 03:21:04:214 [31merror[39m: [31mError occured: NotFound[39m
+2023-07-19 03:21:04:214 [32minfo[39m: [32mError is known.[39m
+2023-07-19 03:21:04:214 [35mhttp[39m: [35mPOST /api/admin/category/update 404 88 - 300.435 ms[39m
+[35m[39m
+2023-07-19 03:21:39:2139 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:21:39:2139 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:21:43:2143 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9306 - 2181.538 ms[39m
+[35m[39m
+2023-07-19 03:22:43:2243 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:22:43:2243 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:22:46:2246 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9420 - 612.833 ms[39m
+[35m[39m
+2023-07-19 03:23:12:2312 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:23:12:2312 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:23:15:2315 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9420 - 619.746 ms[39m
+[35m[39m
+2023-07-19 03:23:55:2355 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:23:55:2355 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:24:28:2428 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:24:28:2428 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:24:31:2431 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9420 - 597.316 ms[39m
+[35m[39m
+2023-07-19 03:25:32:2532 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:25:32:2532 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:25:45:2545 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9420 - 613.780 ms[39m
+[35m[39m
+2023-07-19 03:33:31:3331 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:33:31:3331 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:33:36:3336 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9420 - 597.058 ms[39m
+[35m[39m
+2023-07-19 03:34:35:3435 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:34:35:3435 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:34:49:3449 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:34:49:3449 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:34:51:3451 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9420 - 1193.146 ms[39m
+[35m[39m
+2023-07-19 03:37:41:3741 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:37:41:3741 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:37:49:3749 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9610 - 6188.797 ms[39m
+[35m[39m
+2023-07-19 03:41:58:4158 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:41:58:4158 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:42:52:4252 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:42:52:4252 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:42:56:4256 [37mdebug[39m: [37mError handling middleware called.[39m
+2023-07-19 03:42:56:4256 [32minfo[39m: [32mPath:[39m
+2023-07-19 03:42:56:4256 [31merror[39m: [31mError occured: Cannot read properties of undefined (reading 'match')[39m
+2023-07-19 03:42:56:4256 [35mhttp[39m: [35mPOST /api/admin/category/update 500 80 - 577.086 ms[39m
+[35m[39m
+2023-07-19 03:43:46:4346 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:43:46:4346 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:46:14:4614 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:46:14:4614 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:46:21:4621 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9625 - 6004.697 ms[39m
+[35m[39m
+2023-07-19 03:49:15:4915 [35mhttp[39m: [35mPOST /api/admin/category/update 200 9300 - 5026.061 ms[39m
+[35m[39m
+2023-07-19 03:54:52:5452 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 03:54:52:5452 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 03:54:59:5459 [35mhttp[39m: [35mPOST /api/admin/category/create 200 359 - 5623.848 ms[39m
+[35m[39m
+2023-07-19 03:56:18:5618 [35mhttp[39m: [35mPOST /api/admin/category/create 200 367 - 4172.262 ms[39m
+[35m[39m
+2023-07-19 03:57:03:573 [35mhttp[39m: [35mPOST /api/admin/category/create 200 359 - 3239.953 ms[39m
+[35m[39m
+2023-07-19 04:02:42:242 [32minfo[39m: [32mServer closed[39m
+2023-07-19 04:17:17:1717 [32minfo[39m: [32mMongoose connected[39m
+2023-07-19 04:17:17:1717 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-19 04:17:24:1724 [35mhttp[39m: [35mGET /api/admin/category/getCategory 200 8150 - 587.140 ms[39m
+[35m[39m
+2023-07-19 04:19:27:1927 [35mhttp[39m: [35mGET /api/admin/category/getCategory 200 8149 - 577.509 ms[39m
+[35m[39m
+2023-07-19 04:19:46:1946 [32minfo[39m: [32mServer closed[39m

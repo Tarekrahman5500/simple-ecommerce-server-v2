@@ -1,8 +1,7 @@
 import jwt from "jsonwebtoken";
 import User from "../model/user";
 import env from '../util/validateEnv'
-import CategoryModel, {ICategory} from "../model/category";
-import {Category} from '../types/decs'
+import {ICategory} from "../model/category";
 
 export const generateJwtToken = (_id: string, role: string) => {
   return jwt.sign({ _id, role }, env.JWT_SECRET, {

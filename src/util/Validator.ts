@@ -27,7 +27,7 @@ export const validateLoginRequest = [
         .withMessage('Password must be at least 6 characters long'),
 ];
 
-// check the user update fields
+// body the user update fields
 export const validateUpdateUserRequest = [
 
     body('firstName')
@@ -125,6 +125,27 @@ export const validateCartItems = [
         .isInt({gt: 0})
         .withMessage('Quantity must be an integer greater than 0'),
 ];
+
+// user address
+export const validateAddAddress = [
+  body('address').notEmpty().withMessage('Address is required'),
+  body('name').notEmpty().withMessage('Name is required'),
+  body('mobileNumber')
+    .notEmpty()
+    .withMessage('Mobile number is required')
+    .isMobilePhone('any', { strictMode: false })
+    .withMessage('Invalid mobile number'),
+  body('pinCode').notEmpty().withMessage('Pin code is required'),
+  body('locality').notEmpty().withMessage('Locality is required'),
+  body('address').notEmpty().withMessage('Address is required'),
+  body('cityDistrictTown').notEmpty().withMessage('City/District/Town is required'),
+  body('state').notEmpty().withMessage('State is required'),
+  body('addressType')
+    .notEmpty()
+    .withMessage('Address type is required')
+    .isIn(['home', 'work'])
+    .withMessage('Invalid address type')
+    ]
 
 
 export const isRequestValidated = (req: Request, res: Response, next: NextFunction | undefined) => {
