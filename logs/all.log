@@ -2102,3 +2102,6 @@
 [35m[39m
 2023-07-21 23:33:47:3347 [32minfo[39m: [32mMongoose connected[39m
 2023-07-21 23:33:47:3347 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-21 23:34:01:341 [32minfo[39m: [32mMongoose connected[39m
+2023-07-21 23:34:01:341 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-07-21 23:34:46:3446 [32minfo[39m: [32mServer closed[39m

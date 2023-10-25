@@ -3,8 +3,7 @@ import {expressjwt} from "express-jwt";
 import env from '../util/validateEnv'
 import {getRoleUser, Payload} from "../types/decs";
 import {Jwt} from "jsonwebtoken";
-import User, {IUser} from "../model/user";
-import {Types, ObjectId} from 'mongoose';
+import User from "../model/user";
 
 // function that allow only login user to access the application
 function authJwt() {

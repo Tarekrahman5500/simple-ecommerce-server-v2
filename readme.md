@@ -20,12 +20,48 @@ pull requests.
 <h2>Author</h2>
 <a href="https://github.com/Tarekrahman5500">Tarek Rahman</a>
 <br>
-[Features]()
-<br>
+<h2><a href="#">Technologies</a></h2>
 <ul>
 <li>TypeScript Support</li>
 <li>MVC Architecture</li>
 <li>Middleware</li>
 <li>Es6 Syntax</li>
+<li>Express JWT</li>
+<li>Cloudinary</li>
+<li>Mongodb Aggregation</li>
+<li>Express Validator</li>
+<li>bcrypt</li>
 </ul>
 
+[Features]()
+<br>
+<p>(Users)</p>
+<ul>
+<li>Complete user authentication</li>
+<li>Users can sign in</li>
+<li>Users can sign out</li>
+<li>Users can Change Password</li>
+<li>View all products</li>
+<li>View products detail</li>
+<li>Filter products by category</li>
+<li>Search for products</li>
+<li>Add products to their Cart</li>
+<li>Checkout total payment</li>
+<li>Checkout</li>
+</ul>
+
+
+<p>(Admin)</p>
+<ul>
+<li>Complete user authentication</li>
+<li>Users can sign in</li>
+<li>Users can sign out</li>
+<li>Users can Change Password</li>
+<li>View all products</li>
+<li>View products detail</li>
+<li>Filter products by category</li>
+<li>Search for products</li>
+<li>Add products to their Cart</li>
+<li>Checkout total payment</li>
+<li>Checkout</li>
+</ul>
